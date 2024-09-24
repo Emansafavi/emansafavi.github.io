@@ -1,7 +1,7 @@
 .eman-safavi {
     position: absolute;
     top: 0px;
-    left: 10px;
+    left: 0px;
     letter-spacing: 0.01em;
     white-space: pre-wrap;
 }
@@ -63,28 +63,18 @@
 .header-menu {
     position: absolute;
     top: 40px;
-    left: 490px;
+    left: 480px;
     width: 662px;
     height: 35px;
     font-size: 28px;
     font-family: 'Familjen Grotesk';
 }
-.frame-child {
-    width: 1136px;
-    position: relative;
-    max-height: 100%;
-}
-.vector-wrapper {
+.group-child {
     position: absolute;
-    top: 94px;
+    top: 104px;
     left: 0px;
-    width: 1176px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    padding: 10px;
-    box-sizing: border-box;
+    max-height: 100%;
+    width: 1136px;
 }
 .instagram-icon {
     position: absolute;
@@ -113,15 +103,15 @@
 .social-media {
     position: absolute;
     top: 80px;
-    left: 1182px;
+    left: 1172px;
     width: 151px;
     height: 29px;
 }
 .eman-safavi-parent {
     position: absolute;
     top: 0px;
-    left: 0px;
-    width: 1333px;
+    left: 10px;
+    width: 1323px;
     height: 114px;
 }
 .desktop-1-inner {
@@ -135,20 +125,12 @@
     height: 13px;
 }
 .tempimagevwdu2q-1-icon {
-    width: 428px;
-    position: relative;
-    height: 641px;
-    object-fit: cover;
-}
-.tempimagevwdu2q-1-wrapper {
     position: absolute;
     top: -6px;
     left: 10px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
+    width: 428px;
+    height: 641px;
+    object-fit: cover;
 }
 .a-journey-through-sounds {
     margin: 0;
@@ -169,11 +151,11 @@
     display: flex;
     align-items: center;
     z-index: 0;
-    font-size: 28px;
 }
 .eman-safavi-is-container {
     width: 846px;
     position: relative;
+    font-size: 21px;
     letter-spacing: -0.02em;
     line-height: 113.03%;
     font-family: Trispace;
@@ -181,27 +163,7 @@
     align-items: center;
     z-index: 1;
 }
-.group-child {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    background-color: #e8e6e6;
-    width: 220px;
-    height: 76px;
-}
-.butoon {
-    position: absolute;
-    top: 24px;
-    left: 21px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 178px;
-    height: 28px;
-}
-.rectangle-parent {
+.vector-icon {
     width: 220px;
     position: absolute;
     margin: 0 !important;
@@ -209,8 +171,6 @@
     left: 677px;
     height: 76px;
     z-index: 2;
-    text-align: center;
-    color: #030303;
 }
 .a-journey-through-sounds-sta-parent {
     position: absolute;
@@ -224,12 +184,12 @@
     justify-content: center;
     gap: 91px;
 }
-.frame-parent {
+.tempimagevwdu2q-1-parent {
     width: 1332px;
     position: relative;
     height: 678px;
     text-align: left;
-    font-size: 21px;
+    font-size: 28px;
     font-family: 'Familjen Grotesk';
 }
 .desktop-1 {
