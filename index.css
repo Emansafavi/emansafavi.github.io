@@ -151,6 +151,7 @@
     display: flex;
     align-items: center;
     z-index: 0;
+    border: none;
 }
 .eman-safavi-is-container {
     width: 846px;
