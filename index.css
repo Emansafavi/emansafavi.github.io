@@ -1,265 +1,166 @@
-.eman-safavi {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    letter-spacing: 0.01em;
-    white-space: pre-wrap;
-}
-.music {
-    position: absolute;
-    top: 0px;
-    left: 142px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 92px;
-}
-.about {
-    position: absolute;
-    top: 0px;
-    left: 270px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 99px;
-}
-.blogs {
-    position: absolute;
-    top: 0px;
-    left: 405px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 93px;
-}
-.contact {
-    position: absolute;
-    top: 0px;
-    left: 534px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 128px;
-}
-.recent {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    letter-spacing: -0.03em;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 106px;
-}
-.header-menu {
-    position: absolute;
-    top: 40px;
-    left: 480px;
-    width: 662px;
-    height: 35px;
-    font-size: 28px;
-    font-family: 'Familjen Grotesk';
-}
-.group-child {
-    position: absolute;
-    top: 104px;
-    left: 0px;
-    max-height: 100%;
-    width: 1136px;
-}
-.instagram-icon {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    width: 29px;
-    height: 29px;
-    overflow: hidden;
-}
-.youtube-icon {
-    position: absolute;
-    top: 0px;
-    left: 61px;
-    width: 29px;
-    height: 29px;
-    overflow: hidden;
-}
-.twitter-icon {
-    position: absolute;
-    top: 0px;
-    left: 122px;
-    width: 29px;
-    height: 29px;
-    overflow: hidden;
-}
-.social-media {
-    position: absolute;
-    top: 80px;
-    left: 1172px;
-    width: 151px;
-    height: 29px;
-}
-.eman-safavi-parent {
-    position: absolute;
-    top: 0px;
-    left: 10px;
-    width: 1323px;
-    height: 114px;
-}
-.desktop-1-inner {
-    width: 1384px;
-    position: relative;
-    height: 130px;
-}
-.desktop-1-child {
-    width: 1386px;
-    position: relative;
-    height: 13px;
-}
-.tempimagevwdu2q-1-icon {
-    position: absolute;
-    top: -6px;
-    left: 10px;
-    width: 428px;
-    height: 641px;
-    object-fit: cover;
-}
-.a-journey-through-sounds {
+/* Global Styles */
+body {
     margin: 0;
-}
-.started-from-the {
-    margin: 0;
-    font-size: 24px;
-}
-.a-journey-through-container1 {
-    width: 100%;
-}
-.a-journey-through-container {
-    width: 841px;
-    position: relative;
-    letter-spacing: 0.06em;
-    line-height: 124.99%;
-    text-transform: uppercase;
-    display: flex;
-    align-items: center;
-    z-index: 0;
-    border: none;
-}
-.eman-safavi-is-container {
-    width: 846px;
-    position: relative;
-    font-size: 21px;
-    letter-spacing: -0.02em;
-    line-height: 113.03%;
-    font-family: Trispace;
-    display: flex;
-    align-items: center;
-    z-index: 1;
-}
-.vector-icon {
-    width: 220px;
-    position: absolute;
-    margin: 0 !important;
-    top: 549px;
-    left: 677px;
-    height: 76px;
-    z-index: 2;
-}
-.a-journey-through-sounds-sta-parent {
-    position: absolute;
-    top: 0px;
-    left: 436px;
-    width: 897px;
-    height: 511px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: center;
-    gap: 91px;
-}
-.tempimagevwdu2q-1-parent {
-    width: 1332px;
-    position: relative;
-    height: 678px;
-    text-align: left;
-    font-size: 28px;
-    font-family: 'Familjen Grotesk';
-}
-.desktop-1 {
-    width: 100%;
-    position: relative;
+    padding: 0;
+    font-family: 'Familjen Grotesk', sans-serif;
     background-color: #030303;
-    height: 1024px;
-    overflow: hidden;
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    padding: 20px;
-    box-sizing: border-box;
-    gap: 0px 51px;
-    text-align: center;
-    font-size: 73px;
     color: #fff;
-    font-family: Lalezar;
 }
 
-img {
-  max-width: 100%;
-  height: auto;  
-  border: none;
-  outline: none;
-}
-/* Reset some common styles to avoid inconsistencies */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
 }
 
-/* Mobile styles */
-@media (max-width: 768px) {
-  .header-menu {
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #111;
+}
+
+.logo h1 {
+    font-family: 'Lalezar', cursive;
+    font-size: 2rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-list li {
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+.nav-list li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+/* Hero Section */
+.hero {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 10px;
-  }
-  
-  .eman-safavi-parent {
-    width: 100%;
     text-align: center;
-  }
+    padding: 50px 20px;
+    background-color: #222;
+}
 
-  .tempimagevwdu2q-1-icon {
-    width: 100%;
+.hero h2 {
+    font-family: 'Lalezar', cursive;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+.hero-image img {
+    max-width: 100%;
     height: auto;
-  }
+    margin-top: 20px;
+}
 
-  .a-journey-through-container,
-  .eman-safavi-is-container {
-    width: 100%;
-    padding: 0 20px;
-    font-size: 18px;
-  }
+/* About Section */
+.about {
+    background-color: #111;
+    padding: 50px 20px;
+    text-align: center;
+}
 
-  .desktop-1 {
-    padding: 10px;
-    gap: 10px;
-  }
+.about h2 {
+    font-family: 'Lalezar', cursive;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
 
-  .vector-icon {
-    display: none; /* Hides the vector on small screens */
-  }
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Social Media */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 0;
+    background-color: #222;
+}
+
+.social-media a img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer */
+.footer {
+    background-color: #111;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .hero h2 {
+        font-size: 2rem;
+    }
+
+    .about h2 {
+        font-size: 2rem;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .nav-list {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 20px;
+        background-color: #111;
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    .nav-list.active {
+        display: flex;
+    }
 }
