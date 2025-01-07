@@ -156,6 +156,46 @@
       font-size: 0.75rem;
       color: #ef4444;
     }
+    .image-container-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+    }
+    .image-container {
+          display: flex;
+          gap: 50px; /* Adjust the gap between images if needed */
+          width: 100%;
+          height: 100%; /* Set the desired height */
+          overflow-y: scroll; /* Enable vertical scrolling */ 
+          
+        }
+      
+        .project-image {
+          filter: blur(3px);
+          transition: filter 0.3s ease;
+        }
+      
+        .project-image:hover {
+          filter: none;
+        }
+        .scroll-button {
+            background-color: rgba(0, 0, 0, 0.5);
+            border: none;
+            color: white;
+            padding: 10px;
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+        }
+        .scroll-button.left {
+             left: 0;
+            }
+        .scroll-button.right {
+            right: 0;
+        }
+      
 
     /* Blog */
     .blog-post {
@@ -287,15 +327,16 @@
     <section class="hero container">
       <h1>Artistic Technics,<br/>Computation & Sound Design</h1>
       <p>
-        Hi, I’m Eman, an interdisciplinary artist and engineer based in Berlin. 
+        I’m an interdisciplinary artist and engineer based in Berlin. 
         I combine my love for music, technology, and design to craft immersive experiences. 
         Drawing from my background in chemical engineering, I treat creative processes 
-        like intricate systems—shaping both the sonic and the visual world.
+        like intricate systems—shaping both the sonic and the visual world. My main interest at the moment is interdisciplinary
+        problem solving and the intersection of art and technology.
       </p>
     </section>
 
     <!-- Projects Section -->
-    <section id="projects" class="container">
+    <section id="projects" class="container" >
       <h2>Projects</h2>
 
       <!-- Personal (Sound) Space -->
@@ -308,6 +349,22 @@
           in a public environment, inviting participants to reconsider the boundaries of 
           spatial perception through auditory cues.
         </p>
+    <div class="image-container-wrapper">
+        <img 
+        src="images/Personal (sound) space - 2.jpg" 
+       
+        style="width: 50%;"
+        alt="Personal Sound Space"
+        class="project-image" />
+        
+        <img 
+        src="images/Personal (sound) space - 1.jpg"
+        style="width: 50%;"
+        alt="Personal (Sound) Space"
+        class="project-image" />
+    </div>
+        <br>
+
         <span class="project-tag">Installation</span>
       </article>
 
