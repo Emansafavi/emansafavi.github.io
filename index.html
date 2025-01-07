@@ -1,63 +1,422 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Eman Safavi</title>
-    <link rel="stylesheet" href="index.css">
-    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eman Safavi</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', sans-serif;
+      background: #000;
+      color: #fff;
+      line-height: 1.5;
+    }
+
+    .nav {
+      position: fixed;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.9);
+      backdrop-filter: blur(8px);
+      z-index: 40;
+    }
+
+    .container {
+      max-width: 64rem;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    .nav-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 4rem;
+    }
+
+    .logo {
+      font-weight: 300;
+      font-size: 0.875rem;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+    }
+
+    .nav-links {
+      display: none;
+    }
+
+    .nav-links a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.875rem;
+      text-transform: lowercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: #ef4444;
+    }
+
+    .menu-button {
+      background: none;
+      border: none;
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: #000;
+      z-index: 30;
+      padding-top: 4rem;
+      text-align: center;
+    }
+
+    .mobile-menu.active {
+      display: block;
+    }
+
+    .mobile-menu a {
+      display: block;
+      color: #fff;
+      text-decoration: none;
+      padding: 1rem;
+      font-size: 0.875rem;
+      text-transform: lowercase;
+    }
+
+    main {
+      padding-top: 6rem;
+    }
+
+    /* Hero */
+    .hero {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: flex-start;
+      padding: 4rem 0 2rem 0;
+    }
+
+    .hero h1 {
+      font-size: 2.25rem;
+      font-weight: 300;
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      color: #9ca3af;
+      font-size: 1.125rem;
+      max-width: 36rem;
+      margin-bottom: 2rem;
+    }
+
+    /* Sections */
+    section {
+      margin-top: 4rem;
+    }
+
+    h2 {
+      font-size: 0.875rem;
+      text-transform: lowercase;
+      letter-spacing: 0.2em;
+      margin-bottom: 3rem;
+    }
+
+    /* Projects */
+    .project {
+      margin-bottom: 3rem;
+    }
+
+    .project-title {
+      font-weight: 300;
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      transition: color 0.2s;
+    }
+
+    .project-title:hover {
+      color: #ef4444;
+    }
+
+    .project-desc {
+      color: #9ca3af;
+      margin-bottom: 0.5rem;
+    }
+
+    .project-tag {
+      font-size: 0.75rem;
+      color: #ef4444;
+    }
+
+    /* Blog */
+    .blog-post {
+      margin-bottom: 3rem;
+    }
+
+    .blog-post:hover h3 {
+      color: #ef4444;
+    }
+
+    .blog-date {
+      font-size: 0.75rem;
+      color: #6b7280;
+    }
+
+    .blog-title {
+      font-size: 1.25rem;
+      font-weight: 300;
+      margin: 0.5rem 0;
+      transition: color 0.2s;
+    }
+
+    .blog-excerpt {
+      color: #9ca3af;
+      margin-bottom: 0.5rem;
+    }
+
+    .blog-tag {
+      font-size: 0.75rem;
+      color: #ef4444;
+    }
+
+    /* About */
+    .about-container {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .about-text {
+      color: #9ca3af;
+      flex: 1;
+    }
+
+    .about-image {
+      width: 100%;
+      max-width: 300px;
+      height: auto;
+      border: 2px solid #333;
+      border-radius: 4px;
+    }
+
+    /* Footer */
+    footer {
+      border-top: 1px solid #1f2937;
+      padding: 2rem 0;
+      margin-top: 4rem;
+    }
+
+    .footer-content {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .footer-location {
+      font-size: 0.75rem;
+      color: #6b7280;
+    }
+
+    .social-links a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      transition: color 0.2s;
+    }
+
+    .social-links a:hover {
+      color: #ef4444;
+    }
+
+    @media (min-width: 768px) {
+      .nav-links {
+        display: flex;
+        gap: 2rem;
+      }
+
+      .menu-button {
+        display: none;
+      }
+
+      .hero h1 {
+        font-size: 3rem;
+      }
+
+      .about-container {
+        flex-direction: row;
+      }
+    }
+  </style>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
 </head>
 <body>
-    <header>
-        <div class="logo">
-            <h1>EMAN SAFAVI</h1>
+  <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-content">
+      <span class="logo">Eman Safavi</span>
+      <button class="menu-button" id="menuButton">
+        <i data-feather="menu"></i>
+      </button>
+      <div class="nav-links">
+        <a href="#projects">Projects</a>
+        <a href="#blog">Blog</a>
+        <a href="#about">About</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#projects">Projects</a>
+    <a href="#blog">Blog</a>
+    <a href="#about">About</a>
+  </div>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero container">
+      <h1>Artistic Technics,<br/>Computation & Sound Design</h1>
+      <p>
+        Hi, I’m Eman, an interdisciplinary artist and engineer based in Berlin. 
+        I combine my love for music, technology, and design to craft immersive experiences. 
+        Drawing from my background in chemical engineering, I treat creative processes 
+        like intricate systems—shaping both the sonic and the visual world.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+
+      <!-- Personal (Sound) Space -->
+      <article class="project">
+        <h3 class="project-title">Personal (Sound) Space</h3>
+        <p class="project-desc">
+          An installation project developed for the “Perspective in Design” module (Hyperspace)
+          in the Design and Computation master's program at TU Berlin and UdK Berlin.
+          “Personal (Sound) Space” explores how sound can define and protect personal space
+          in a public environment, inviting participants to reconsider the boundaries of 
+          spatial perception through auditory cues.
+        </p>
+        <span class="project-tag">Installation</span>
+      </article>
+
+      <!-- Fractal Apoptosis -->
+      <article class="project">
+        <h3 class="project-title">Fractal Apoptosis</h3>
+        <p class="project-desc">
+          A live modular glitching and avant-garde soundscape, available on SoundCloud.
+          This piece is a deep dive into generative techniques and experimental composition,
+          merging organic and electronic textures to evoke a hypnotic sonic journey.
+        </p>
+        <span class="project-tag">Music</span>
+        <div style="margin-top:1rem;">
+          <!-- Embed your SoundCloud track -->
+          <iframe 
+            width="100%" 
+            height="166" 
+            scrolling="no" 
+            frameborder="no" 
+            allow="autoplay" 
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/emansafavi/fractal-apoptosis">
+          </iframe>
         </div>
-        <nav>
-            <ul>
+      </article>
+    </section>
 
-                
-                <li><a href="#MUSIC">Music</a></li>
-                <li><a href="#ABOUT">About</a></li>
-                <li><a href="#BLOGS">Blogs</a></li>
-                <li><a href="#CONTACT">Contact</a></li>
-                <li><a href="#RECENT">Recent</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Blog Section -->
+    <section id="blog" class="container" style="margin-top:4rem;">
+      <h2>Recent posts</h2>
+      <!-- Example Blog Post 1 -->
+      <article class="blog-post">
+        <span class="blog-date">2025-01-07</span>
+        <h3 class="blog-title">Experiments in Modular Synthesis</h3>
+        <p class="blog-excerpt">
+          Using VCV Rack to push the boundaries of generative music and algorithmic composition. You can acces 
+          my latest patches and experiments on my patchstorage profile. https://patchstorage.com/author/eman-safavi/
+        </p>
+        <span class="blog-tag">Music</span>
+      </article>
+      <!-- Example Blog Post 2 -->
+      <article class="blog-post">
+        <span class="blog-date">2025-01-05</span>
+        <h3 class="blog-title">Interactive Sound Installation</h3>
+        <p class="blog-excerpt">
+          Documenting the latest project at UdK Berlin, exploring how audiences engage with reactive audio systems.
+        </p>
+        <span class="blog-tag">Project</span>
+      </article>
+    </section>
 
-    <section class="hero">
-        <div class="hero-content">
-            <img src="tempImagevWDu2Q 1.png" alt="Eman Safavi" class="hero-image">
-            <div class="hero-text">
-                <h2>A Journey Through Sounds</h2>
-                <p>Started from the basement</p>
-            </div>
+    <!-- About Section -->
+    <section id="about" class="container" style="margin-top:4rem;">
+      <h2>About me</h2>
+      <div class="about-container">
+        <!-- Image Placeholder -->
+        <img 
+          src="images/eman-portrait.png" 
+          alt="Eman Safavi"
+          class="about-image" />
+
+        <!-- About Text -->
+        <div class="about-text">
+          <p>
+            Eman is currently pursuing a master’s degree in “Design and Computation” 
+            at the Berlin University of the Arts (UdK) and the Technical University (TU) in Berlin. 
+            As an interdisciplinary artist, he combines music, technology, and design to craft 
+            innovative soundscapes and interactive installations.
+          </p>
+          <p style="margin-top:1rem;">
+            With a bachelor’s degree in chemical engineering, Eman brings a systematic 
+            and experimental perspective to his creative work. He is a musician, guitar teacher, 
+            and sound engineer specializing in electronic music, generative music, and sound installations.
+            Always eager to push the boundaries of conventional music and sound design, 
+            Eman aspires to create immersive experiences that resonate with audiences on multiple levels.
+          </p>
         </div>
+      </div>
     </section>
+  </main>
 
-    <section id="about" class="about">
-        <h2>About Eman</h2>
-        <p>Eman Safavi is a student of the master program "Design and Computation" at the Universität der Künste (UDK) and Technische Universität (TU) in Berlin. As an interdisciplinary artist, Eman connects music, technology, and design...</p>
-    </section>
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <span class="footer-location">Berlin, DE – All Rights Reserved – 2025</span>
+      <div class="social-links">
+        <!-- Replace # with actual links to your profiles -->
+        <a href="https://github.com/emansafavi" target="_blank" rel="noopener"><i data-feather="github"></i></a>
+        <a href="https://soundcloud.com/emansafavi" target="_blank" rel="noopener"><i data-feather="music"></i></a>
+        <a href="https://youtube.com/@emansafavi" target="_blank" rel="noopener"><i data-feather="youtube"></i></a>
+        <a href="https://instagram.com/emansafavi" target="_blank" rel="noopener"><i data-feather="instagram"></i></a>
+        <a href="mailto:emansafavibayat@icloud.com"><i data-feather="mail"></i></a>
+      </div>
+    </div>
+  </footer>
 
-    <section id="blogs" class="blogs">
-        <h2>Blogs</h2>
-        <!-- Your blog content goes here -->
-    </section>
-
-    <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <p>Get in touch through my socials:</p>
-        <div class="social-icons">
-            <a href="https://instagram.com/emansafavi" img src="Instagram.svg" target="_blank">Instagram</a>
-            <a href="https://youtube.com/@emansafavi" target="_blank">YouTube</a>
-            <a href="https://twitter.com/emansafavi" target="_blank">Twitter</a>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Eman Safavi. All rights reserved.</p>
-    </footer>
+  <script>
+    feather.replace();
+    
+    const menuButton = document.getElementById('menuButton');
+    const mobileMenu = document.getElementById('mobileMenu');
+    
+    menuButton.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
+      const icon = menuButton.querySelector('i');
+      icon.setAttribute('data-feather', 
+        mobileMenu.classList.contains('active') ? 'x' : 'menu'
+      );
+      feather.replace();
+    });
+  </script>
 </body>
 </html>
