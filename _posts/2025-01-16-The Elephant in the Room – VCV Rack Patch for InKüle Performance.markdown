@@ -5,7 +5,7 @@ date: 2025-01-14 12:00:00 +0100
 categories: [Performance, VCV Rack, Projects]
 ---
 
-![The Elephant in the Room in progress](/assets/images/The elephant in the room.jpg)
+![The Elephant in the Room in progress](/assets/images/The-elephant-in-the-room.jpg)
 
 On **February 8th, 2025**, as part of UdK’s 50th anniversary celebrations, I’ll be performing with **InKüle** in a special 20-minute piece. My contribution is a **VCV Rack patch** called ***The Elephant in the Room*** – you can check it out on [Patchstorage](https://patchstorage.com/the-elephant-in-the-room/).
 
@@ -29,13 +29,7 @@ When you open the patch, it will immediately start producing sound as soon as yo
 ## Demonstration Video
 Below is a **10-minute YouTube demo** showcasing how I use this patch for ambient/background music. Here, I explore different soundscapes created live with just a NanoKontrol2 and a few simple faders.
 
-<iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/VIDEO_ID" 
-    frameborder="0" 
-    allowfullscreen>
-</iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CYpGC6zKEW8?si=a8FTnutsvHoV1iOm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 > **#vcv #modularsynth #generativemusic #ambient #backgroundmusic**
 
