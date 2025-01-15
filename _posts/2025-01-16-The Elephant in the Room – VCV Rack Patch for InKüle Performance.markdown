@@ -5,7 +5,7 @@ date: 2025-01-14 12:00:00 +0100
 categories: [Performance, VCV Rack, Projects]
 ---
 
-![The Elephant in the Room in progress](/images/The elephant in the room.jpg)
+![The Elephant in the Room in progress](/images/The-elephant-in-the-room.jpg)
 
 On **February 8th, 2025**, as part of UdK’s 50th anniversary celebrations, I’ll be performing with **InKüle** in a special 20-minute piece. My contribution is a **VCV Rack patch** called ***The Elephant in the Room*** – you can check it out on [Patchstorage](https://patchstorage.com/the-elephant-in-the-room/).
 
