@@ -38,7 +38,7 @@ Below is a **10-minute YouTube demo** showcasing how I use this patch for ambien
         class="project-image" /> 
 </a>
 
-In this video, you’ll see the variety of sounds I can shape with minimal controls. For more details on the patch, visit [my website](https://www.emansafavi.com). You can also **download the patch for free** at [Patchstorage](https://patchstorage.com/the-elephant-in-the-room/).
+In this video, you’ll see the variety of sounds I can shape with minimal controls. 
 
 If you want to **support my work**, feel free to visit [Buy Me a Coffee](https://buymeacoffee.com/emansafavi). I truly appreciate any support!
 
