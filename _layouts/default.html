@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ page.title }} | Eman Safavi</title>
+  <!-- Make sure you've placed your optimized CSS in /assets/css/index.css -->
+  <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}"/>
+</head>
+<body>
+  {% include header.html %}
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero container">
+      <h1>Artistic Technics,<br/>Computation & Sound Design</h1>
+      <p>
+        I’m an interdisciplinary artist and engineer based in Berlin. 
+        I combine my love for music, technology, and design to craft immersive experiences. 
+        Drawing from my background in chemical engineering, I treat creative processes 
+        like intricate systems—shaping both the sonic and the visual world. My main interest at the moment is 
+        interdisciplinary problem solving and the intersection of art and technology.
+      </p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+      <h2>Projects</h2>
+
+      <!-- Personal (Sound) Space -->
+      <article class="project">
+        <h3 class="project-title">Personal (Sound) Space</h3>
+        <p class="project-desc">
+          An installation project developed for the “Perspective in Design” module (Hyperspace)
+          in the Design and Computation master's program at TU Berlin and UdK Berlin.
+          “Personal (Sound) Space” explores how sound can define and protect personal space
+          in a public environment, inviting participants to reconsider the boundaries of 
+          spatial perception through auditory cues.
+        </p>
+
+        <div class="image-container-wrapper">
+          <img 
+            src="{{ '/assets/images/Personal (sound) space - 2.jpg' | relative_url }}"
+            alt="Personal Sound Space"
+            style="width:50% ;" 
+            class="project-image" />
+            
+          <img 
+            src="{{ '/assets/images/Personal (sound) space - 1.jpg' | relative_url }}"
+            alt="Personal (Sound) Space"
+            style="width:50% ;"
+            class="project-image" />
+        </div>
+
+        <span class="project-tag">Installation</span>
+      </article>
+
+      <!-- Fractal Apoptosis -->
+      <article class="project">
+        <h3 class="project-title">Fractal Apoptosis</h3>
+        <p class="project-desc">
+          A live modular glitching and avant-garde soundscape, available on SoundCloud.
+          This piece is a deep dive into generative techniques and experimental composition,
+          merging organic and electronic textures to evoke a hypnotic sonic journey.
+        </p>
+        <span class="project-tag">Music</span>
+
+        <div class="sound-embed">
+          <!-- Embed your SoundCloud track -->
+          <iframe 
+            width="100%" 
+            height="166" 
+            scrolling="no" 
+            frameborder="no" 
+            allow="autoplay"
+            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/emansafavi/fractal-apoptosis">
+          </iframe>
+        </div>
+      </article>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="container">
+      <h2>Recent posts</h2>
+      {% for post in site.posts %}
+        <article class="blog-post card">
+          <h2 class="blog-title">
+            <a href="{{ post.url | relative_url }}" target="_blank">{{ post.title }}</a>
+          </h2>
+          <p class="blog-excerpt">{{ post.excerpt }}</p>
+          <span class="blog-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+          <span class="blog-tag">{{ post.categories | join: ', ' }}</span>
+        </article>
+      {% endfor %}
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container">
+      <h2>About me</h2>
+      <div class="about-container">
+        <img 
+          src="{{ '/assets/images/eman-portrait.png' | relative_url }}"
+          alt="Eman Safavi"
+          class="about-image" />
+
+        <div class="about-text">
+          <p>
+            Eman is currently pursuing a master’s degree in “Design and Computation” 
+            at the Berlin University of the Arts (UdK) and the Technical University (TU) in Berlin. 
+            As an interdisciplinary artist, he combines music, technology, and design to craft 
+            innovative soundscapes and interactive installations.
+          </p>
+          <p>
+            With a bachelor’s degree in chemical engineering, Eman brings a systematic 
+            and experimental perspective to his creative work. He is a musician, guitar teacher, 
+            and sound engineer specializing in electronic music, generative music, and sound installations.
+            Always eager to push the boundaries of conventional music and sound design, 
+            Eman aspires to create immersive experiences that resonate with audiences on multiple levels.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  {% include footer.html %}
+
+  <!-- JS & Feather Icons -->
+  <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+  <script>feather.replace()</script>
+</body>
+</html>

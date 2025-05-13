@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Elephant in the Room – VCV Rack Patch for InKüle Performance</title>
+  <link rel="stylesheet" href="/assets/css/index.css"/>
+</head>
+<body>
+    <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-content">
+      <span class="logo-container">Eman Safavi</span>
+      <button class="menu-button" id="menuButton">
+        <i data-feather="menu"></i>
+      </button>
+      <div class="nav-links">
+        <a href="default.html">Home</a>
+        <a href="default#projects">Projects</a>
+        <a href="default#blog">Blog</a>
+        <a href="default#about">About</a>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search by tag...">
+            <button onclick="searchByTag()">Search</button>
+          </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="default.html">Home</a>
+    <a href="default#projects">Projects</a>
+    <a href="default#blog">Blog</a>
+    <a href="default#about">About</a>
+    <div class="search-container">
+        <input type="text" id="search-input" placeholder="Search by tag...">
+        <button onclick="searchByTag()">Search</button>
+      </div>
+  </div>
+</body>
+
+  <!-- Main Content -->
+  <main>
+    <article class="blog-post container">
+      <h2>The Elephant in the Room – VCV Rack Patch for InKüle Performance</h2>
+      <div>
+        <p>On <strong>February 8th, 2025</strong>, as part of UdK’s 50th anniversary celebrations, I’ll be performing with <strong>InKüle</strong> in a special 20-minute piece. My contribution is a <strong>VCV Rack patch</strong> called <strong><em>The Elephant in the Room</em></strong> – you can check it out on <a href="https://patchstorage.com/the-elephant-in-the-room/">Patchstorage</a>.</p>
+
+<h2 id="about-the-patch">About the Patch</h2>
+<p>This patch is meant to generate evolving ambient textures and chord swarms in the background. I’m using a <strong>Korg NanoKontrol2</strong> to manage live transitions via faders and knobs:</p>
+
+<ul>
+  <li><strong>Mixer Channels</strong>:
+    <ol>
+      <li>Drone sound</li>
+      <li>Chord swarm</li>
+      <li>Sequence pluck (with rotary knob control)</li>
+      <li>Drum part</li>
+      <li>Glitchy high-end texture</li>
+    </ol>
+  </li>
+  <li><strong>Rotary Knobs</strong>:
+    <ul>
+      <li>Control the probability of Bernoulli gates, which can turn a pluck sequence into a single note.</li>
+      <li>Introduce random modulation to delay for <em>churby glitchy</em> sounds.</li>
+      <li>Provide a basic DJ filter for final shaping.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>When you open the patch, it will immediately start producing sound as soon as you select the correct output device in <strong>AUDIO 8</strong>.</p>
+
+<h2 id="demonstration-video">Demonstration Video</h2>
+<p>Below is a <strong>10-minute YouTube demo</strong> showcasing how I use this patch for ambient/background music. Here, I explore different soundscapes created live with just a NanoKontrol2 and a few simple faders.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CYpGC6zKEW8?si=a8FTnutsvHoV1iOm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<blockquote>
+  <p><strong>#vcv #modularsynth #generativemusic #ambient #backgroundmusic</strong></p>
+</blockquote>
+
+<p><a href="https://patchstorage.com/the-elephant-in-the-room" target="_blank">
+            <img src="/assets/images/The-elephant-in-the-room.jpg" alt="Elephant in the room patch for vcv rack" style="width:50%" position="center" class="project-image" /> 
+</a></p>
+
+<p>In this video, you’ll see the variety of sounds I can shape with minimal controls.</p>
+
+<p>If you want to <strong>support my work</strong>, feel free to visit <a href="https://buymeacoffee.com/emansafavi">Buy Me a Coffee</a>. I truly appreciate any support!</p>
+
+<p>Stay tuned for more updates as the performance date approaches.</p>
+
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <span class="footer-location">Berlin, DE – All Rights Reserved – 2025</span>
+      <div class="social-links">
+        <!-- Replace # with actual links to your profiles -->
+        <a href="https://github.com/emansafavi" target="_blank" rel="noopener"><i data-feather="github"></i></a>
+        <a href="https://soundcloud.com/emansafavi" target="_blank" rel="noopener"><i data-feather="music"></i></a>
+        <a href="https://youtube.com/@emansafavi" target="_blank" rel="noopener"><i data-feather="youtube"></i></a>
+        <a href="https://instagram.com/emansafavi" target="_blank" rel="noopener"><i data-feather="instagram"></i></a>
+        <a href="mailto:emansafavibayat@icloud.com"><i data-feather="mail"></i></a>
+      </div>
+    </div>
+  </footer>
+  <script src="/assets/js/index.js"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+  <script>
+    feather.replace()
+  </script>
+</body>
+</html>
