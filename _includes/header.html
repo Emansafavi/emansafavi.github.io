@@ -7,13 +7,9 @@
       </button>
       <div class="nav-links">
         <a href="default.html">Home</a>
-        <a href="default#projects">Projects</a>
-        <a href="default#blog">Blog</a>
-        <a href="default#about">About</a>
-        <div class="search-container">
-            <input type="text" id="search-input" placeholder="Search by tag...">
-            <button onclick="searchByTag()">Search</button>
-          </div>
+        <a href="{{ '/Projects/' | relative_url }}">projects</a>
+        <a href="{{ '/Blogs/' | relative_url }}">Blog</a>
+        <a href="{{ '/About/' | relative_url }}">About</a>
       </div>
     </div>
   </nav>
@@ -21,12 +17,9 @@
   <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu">
     <a href="default.html">Home</a>
-    <a href="default#projects">Projects</a>
-    <a href="default#blog">Blog</a>
-    <a href="default#about">About</a>
-    <div class="search-container">
-        <input type="text" id="search-input" placeholder="Search by tag...">
-        <button onclick="searchByTag()">Search</button>
+    <a href="{{ '/Projects/' | relative_url }}">projects</a>
+        <a href="{{ '/Blogs/' | relative_url }}">Blog</a>
+        <a href="{{ '/About/' | relative_url }}">About</a>
       </div>
   </div>
 </body>

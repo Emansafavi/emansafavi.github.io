@@ -3,10 +3,9 @@ layout: post
 title:  "Check out my patches"
 date:   2025-01-08 17:09:53 +0100
 categories: VCVrack
+
 ---
-
 ## Exploring Generative Music with VCV Rack
-
 Using **VCV Rack** to push the boundaries of generative music and algorithmic composition. You can access my latest patches and experiments on my [Patchstorage](https://patchstorage.com/author/eman-safavi/) profile.
 
 ### Key Features of My Patches

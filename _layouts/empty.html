@@ -12,19 +12,14 @@
 
   <!-- Main Content -->
   <main>
-    <!-- Hero Section -->
-    <section class="hero container">
-      <h1>Artistic Technics,<br/>Computation & Sound Design</h1>
-      <p>
-        I’m an interdisciplinary artist and engineer based in Berlin. 
-        I combine my love for music, technology, and design to craft immersive experiences. 
-        Drawing from my background in chemical engineering, I treat creative processes 
-        like intricate systems—shaping both the sonic and the visual world. My main interest at the moment is 
-        interdisciplinary problem solving and the intersection of art and technology.
-      </p>
-    </section>
+    <article class="blog-post container">
+      <h2>{{ projects}}</h2>
+      <div>
+        {{ content }}
+      </div>
+    </article>
+  </main>
 
-   
   <!-- Footer -->
   {% include footer.html %}
 

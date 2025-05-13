@@ -4,7 +4,6 @@ title: "Violet Bubbles – A December 2022 Snapshot"
 date: 2022-12-13 12:00:00 +0100
 categories: [VCV Rack, Music, Reflections]
 ---
-
 In **December 2022**, I found myself in a challenging space—life was intense, and the sounds I heard in my inner universe weren’t especially vivid or polished. Yet, as an artist, I decided to share what I was creating, even if it wasn’t “perfect.” After all, in a world full of polished YouTube performances, it’s easy to lose confidence. But I realized imperfection can be more honest and real, so here it is: my patch called ***Violet Bubbles***.
 
 ## The Patch: Violet Bubbles

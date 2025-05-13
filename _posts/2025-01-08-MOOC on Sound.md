@@ -6,9 +6,6 @@ categories: [Sound]
 author: "Eman Safavi"
 ---
 ## The MOOC of Experiment with Sounds
-
-Course:
-
 - [Charles Gaines](https://en.wikipedia.org/wiki/Charles_Gaines_(writer)): Transcribes manifestos into musical scores.
 - [Anna Halprin](https://en.wikipedia.org/wiki/Anna_Halprin): Choreographic scores in modern dance.
 - [Beau Dick](https://en.wikipedia.org/wiki/Beau_Dick): Carves masks with their own songs and ceremonies.
