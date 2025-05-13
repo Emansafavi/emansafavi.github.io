@@ -26,7 +26,13 @@
 
     <!-- Blog Section -->
     <section id="blog" class="container">
-      <h2>Recent posts</h2>
+  <h2>
+    <button id="toggle-blog" aria-expanded="false" aria-controls="blog-posts" style="all:unset;cursor:pointer;">
+      Recent Posts <span id="toggle-icon" style="font-size:1.2em;">&#x25BC;</span>
+    </button>
+  </h2>
+  <div id="blog-posts" style="display:none;">
+    <div class="blog-gallery">
       {% for post in site.posts %}
         <article class="blog-post card">
           <h2 class="blog-title">
@@ -37,8 +43,9 @@
           <span class="blog-tag">{{ post.categories | join: ', ' }}</span>
         </article>
       {% endfor %}
-    </section>
-
+    </div>
+  </div>
+</section>
     <!-- About Section -->
     <section id="about" class="container">
       <h2>About me</h2>

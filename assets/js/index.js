@@ -31,3 +31,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
   });
 });
+document.addEventListener('DOMContentLoaded', function() {
+  const toggleBtn = document.getElementById('toggle-blog');
+  const blogPosts = document.getElementById('blog-posts');
+  const icon = document.getElementById('toggle-icon');
+  toggleBtn.addEventListener('click', function() {
+    const expanded = toggleBtn.getAttribute('aria-expanded') === 'true';
+    toggleBtn.setAttribute('aria-expanded', !expanded);
+    blogPosts.style.display = expanded ? 'none' : 'block';
+    icon.innerHTML = expanded ? '&#x25BC;' : '&#x25B2;';
+  });
+});

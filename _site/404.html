@@ -55,65 +55,15 @@
       </p>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="container">
-      <h2>Projects</h2>
-
-      <!-- Personal (Sound) Space -->
-      <article class="project">
-        <h3 class="project-title">Personal (Sound) Space</h3>
-        <p class="project-desc">
-          An installation project developed for the “Perspective in Design” module (Hyperspace)
-          in the Design and Computation master's program at TU Berlin and UdK Berlin.
-          “Personal (Sound) Space” explores how sound can define and protect personal space
-          in a public environment, inviting participants to reconsider the boundaries of 
-          spatial perception through auditory cues.
-        </p>
-
-        <div class="image-container-wrapper">
-          <img 
-            src="/assets/images/Personal%20(sound)%20space%20-%202.jpg"
-            alt="Personal Sound Space"
-            style="width:50% ;" 
-            class="project-image" />
-            
-          <img 
-            src="/assets/images/Personal%20(sound)%20space%20-%201.jpg"
-            alt="Personal (Sound) Space"
-            style="width:50% ;"
-            class="project-image" />
-        </div>
-
-        <span class="project-tag">Installation</span>
-      </article>
-
-      <!-- Fractal Apoptosis -->
-      <article class="project">
-        <h3 class="project-title">Fractal Apoptosis</h3>
-        <p class="project-desc">
-          A live modular glitching and avant-garde soundscape, available on SoundCloud.
-          This piece is a deep dive into generative techniques and experimental composition,
-          merging organic and electronic textures to evoke a hypnotic sonic journey.
-        </p>
-        <span class="project-tag">Music</span>
-
-        <div class="sound-embed">
-          <!-- Embed your SoundCloud track -->
-          <iframe 
-            width="100%" 
-            height="166" 
-            scrolling="no" 
-            frameborder="no" 
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/emansafavi/fractal-apoptosis">
-          </iframe>
-        </div>
-      </article>
-    </section>
-
     <!-- Blog Section -->
     <section id="blog" class="container">
-      <h2>Recent posts</h2>
+  <h2>
+    <button id="toggle-blog" aria-expanded="false" aria-controls="blog-posts" style="all:unset;cursor:pointer;">
+      Recent Posts <span id="toggle-icon" style="font-size:1.2em;">&#x25BC;</span>
+    </button>
+  </h2>
+  <div id="blog-posts" style="display:none;">
+    <div class="blog-gallery">
       
         <article class="blog-post card">
           <h2 class="blog-title">
@@ -155,8 +105,19 @@
           <span class="blog-tag">Sound</span>
         </article>
       
-    </section>
-
+        <article class="blog-post card">
+          <h2 class="blog-title">
+            <a href="/vcv%20rack/music/reflections/2022/12/13/Violet-Bubbles.html" target="_blank">Violet Bubbles – A December 2022 Snapshot</a>
+          </h2>
+          <p class="blog-excerpt"><p>In <strong>December 2022</strong>, I found myself in a challenging space—life was intense, and the sounds I heard in my inner universe weren’t especially vivid or polished. Yet, as an artist, I decided to share what I was creating, even if it wasn’t “perfect.” After all, in a world full of polished YouTube performances, it’s easy to lose confidence. But I realized imperfection can be more honest and real, so here it is: my patch called <strong><em>Violet Bubbles</em></strong>.</p>
+</p>
+          <span class="blog-date">2022-12-13</span>
+          <span class="blog-tag">VCV Rack, Music, Reflections</span>
+        </article>
+      
+    </div>
+  </div>
+</section>
     <!-- About Section -->
     <section id="about" class="container">
       <h2>About me</h2>
