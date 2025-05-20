@@ -1,10 +1,10 @@
----
+#---
 layout: post
 title:  "Temp Post"
 date:   2025-01-08 17:09:53 +0100
 categories: music, VCV rack
 image: /assets/images/eman-portrait.png
----
+#---
 
 ## this is a temp post 
 
