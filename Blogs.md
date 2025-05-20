@@ -6,7 +6,7 @@ permalink: /Blogs/
 
 <section id="blog" class="container">
   <h2>Recent Posts</h2>
-<div class="blog-gallery">
+<div class="grid-gallery">
   {% for post in site.posts %}
     <article class="blog-post card">
       <h2 class="blog-title">
