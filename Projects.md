@@ -6,7 +6,6 @@ permalink: /Projects/
 
 # Projects
 
-This will be a page with a gallery to the different projects
 ---
  <section id="projects" class="container">
       <!-- Personal (Sound) Space -->
