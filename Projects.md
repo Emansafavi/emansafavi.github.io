@@ -62,4 +62,4 @@ permalink: /Projects/
           </iframe>
         </div>
       </article>
-r</section>
+</section>
