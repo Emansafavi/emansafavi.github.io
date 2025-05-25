@@ -8,9 +8,18 @@ permalink: /Projects/
 
 ---
  <section id="projects" class="container">
+      <!-- Fractal Fade -->
+      <a href="{{ '/Fractal_Fade/' | relative_url }}" class="project-link">
+        <article class="project">
+          <h2 class="project-title">Fractal Fade</h2>
+          <p class="project-desc">
+            Fractal Fade is an ambient project I developed to explore my virtual modular patching ideas.
+          </p>
+        </article>
+      </a> 
       <!-- Personal (Sound) Space -->
       <article class="project">
-        <h3 class="project-title">Personal (Sound) Space</h3>
+        <h2 class="project-title">Personal (Sound) Space</h2>
         <p class="project-desc">
           An installation project developed for the “Perspective in Design” module (Hyperspace)
           in the Design and Computation master's program at TU Berlin and UdK Berlin.
@@ -53,4 +62,4 @@ permalink: /Projects/
           </iframe>
         </div>
       </article>
-    </section>
+r</section>
