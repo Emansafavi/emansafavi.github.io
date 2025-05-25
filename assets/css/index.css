@@ -181,7 +181,50 @@ h2 {
   font-size: 0.75rem;
   color: var(--color-highlight);
 }
+/*newly added*/
+/* turn the section into a responsive grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(240px, 1fr)
+  );
+  gap: 1.5rem;         /* space between cards */
+  margin-top: 4rem;
+}
 
+/* style each card */
+.project-card {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: var(--color-text);
+  background: rgba(26,26,26,0.4);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+}
+
+/* make your thumbnails fill the top of the card */
+.project-card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* title below the image */
+.project-card h3 {
+  margin: 1rem;
+  font-size: 1.25rem;
+  font-weight: var(--font-weight-light);
+  text-transform: uppercase;
+}
 /* IMAGE WRAPPERS */
 .image-container-wrapper {
   display: flex;

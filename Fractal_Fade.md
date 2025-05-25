@@ -4,11 +4,8 @@ title: "Fractal Fade"
 permalink: /Fractal_Fade/
 description: "Fractal Fade is an ambient music project exploring modular synthesis, generative composition, and textural disintegration."
 ---
+<div class="hero-image" > <img src="/assets/images/fractal_fade_banner.jpeg" alt="Fractal_Fade"> </div> 
 
-![Fractal Fade Banner](../assets/images/fractal_fade_banner.jpg)  
-*Image placeholder for banner or cover artwork*
-
-## About
 
 **Fractal Fade** is a faceless ambient music project by [Eman Safavi](https://emansafavi.com). It exists outside the traditional music momentum—favoring **generative systems**, **modular synthesis**, and **tape-style degradation** over structured composition.
 
@@ -18,27 +15,21 @@ Minor Fall, the debut EP, is a slow drift. Built mostly with self-generating pat
 
 ## Latest Release: *Minor Fall*
 
-![Minor Fall Cover](../assets/images/minor_fall_cover.jpg)
+![Minor Fall Cover](../assets/images/minor_fall_cover.jpeg)
 
 **Released:** May 2025  
-**Length:** 4 tracks / 32 mins  
-**Listen on:**
-
-- [Bandcamp](https://fractalfade.bandcamp.com/album/minor-fall)
-- [Spotify](https://open.spotify.com/artist/...)  
-- [YouTube](https://youtube.com/@FractalFade)
+**Length:** 4 tracks / 14 mins  
 
 ---
 
-## Listen
+## Listen Now!
 
-> *Embed players below as needed*
+>
 
-**Spotify Embed Placeholder:**  
-`<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/ALBUM_ID" width="100%" height="152" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>`
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0O4sSQGfDky11HTKNO9fbq?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-**Bandcamp Embed Placeholder:**  
-`<iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=ALBUM_ID/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless></iframe>`
+
+<iframe style="border: 0; width: 700px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3327413038/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://fractalfade.bandcamp.com/album/minor-fall">Minor Fall by Fractal Fade</a></iframe>
 
 ---
 
@@ -55,10 +46,9 @@ Fractal Fade is about minimal identity and maximal texture. No face, no stories.
 
 ## Links
 
-- [Instagram](https://instagram.com/fractalfade)
+- [Instagram](https://instagram.com/fractal_fade)
 - [YouTube](https://youtube.com/@FractalFade)
 - [Bandcamp](https://fractalfade.bandcamp.com)
-- [SoundCloud](https://soundcloud.com/fractalfade)
 - [Linktree](https://linktr.ee/fractalfade)
 
 ---
@@ -66,8 +56,9 @@ Fractal Fade is about minimal identity and maximal texture. No face, no stories.
 ## Contact
 
 For collaborations or licensing:  
-**fractalfade@protonmail.com**
+**fractalfade@gmail.com**
 
 ---
 
-*This project is independent and self-funded. If you wish to support future releases, [donations are open here](https://gofund.me/...) or consider purchasing via Bandcamp.*
+*This project is independent and self-funded. If you wish to support future releases, [donations are open here](https://www.gofundme.com/f/support-fractal-fade-independent-ambient-music) or consider purchasing via Bandcamp.*
+

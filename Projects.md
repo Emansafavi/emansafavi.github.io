@@ -7,59 +7,21 @@ permalink: /Projects/
 # Projects
 
 ---
- <section id="projects" class="container">
-      <!-- Fractal Fade -->
-      <a href="{{ '/Fractal_Fade/' | relative_url }}" class="project-link">
-        <article class="project">
-          <h2 class="project-title">Fractal Fade</h2>
-          <p class="project-desc">
-            Fractal Fade is an ambient project I developed to explore my virtual modular patching ideas.
-          </p>
-        </article>
-      </a> 
-      <!-- Personal (Sound) Space -->
-      <article class="project">
-        <h2 class="project-title">Personal (Sound) Space</h2>
-        <p class="project-desc">
-          An installation project developed for the “Perspective in Design” module (Hyperspace)
-          in the Design and Computation master's program at TU Berlin and UdK Berlin.
-          “Personal (Sound) Space” explores how sound can define and protect personal space
-          in a public environment, inviting participants to reconsider the boundaries of 
-          spatial perception through auditory cues.
-        </p>
-        <div class="image-container-wrapper">
-          <img 
-            src="{{ '/assets/images/Personal (sound) space - 2.jpg' | relative_url }}"
-            alt="Personal Sound Space"
-            style="width:50% ;" 
-            class="project-image" />
-          <img 
-            src="{{ '/assets/images/Personal (sound) space - 1.jpg' | relative_url }}"
-            alt="Personal (Sound) Space"
-            style="width:50% ;"
-            class="project-image" />
-        </div>
-        <span class="project-tag">Installation</span>
-      </article>
-      <!-- Fractal Apoptosis -->
-      <article class="project">
-        <h3 class="project-title">Fractal Apoptosis</h3>
-        <p class="project-desc">
-          A live modular glitching and avant-garde soundscape, available on SoundCloud.
-          This piece is a deep dive into generative techniques and experimental composition,
-          merging organic and electronic textures to evoke a hypnotic sonic journey.
-        </p>
-        <span class="project-tag">Music</span>
-        <div class="sound-embed">
-          <!-- Embed your SoundCloud track -->
-          <iframe 
-            width="100%" 
-            height="166" 
-            scrolling="no" 
-            frameborder="no" 
-            allow="autoplay"
-            src="https://w.soundcloud.com/player/?url=https%3A//soundcloud.com/emansafavi/fractal-apoptosis">
-          </iframe>
-        </div>
-      </article>
+ <section id="projects" class="container projects-grid">
+  <a href="{{ '/Fractal_Fade/' | relative_url }}" class="project-card">
+    <img src="{{ '/assets/images/Fractal_Fade_avatar.jpeg' | relative_url }}"
+         alt="Fractal Fade">
+    <h3>Fractal Fade</h3>
+  </a>
+
+  <a href="{{ '/Personal_Sound_Space/' | relative_url }}" class="project-card">
+    <img src="{{ '/assets/images/Personal_Sound_Space.jpg' | relative_url }}"
+         alt="Personal Sound Space">
+    <h3>Personal (Sound) Space</h3>
+  </a>
+  <a href="{{ '/Mythologizer/' | relative_url }}" class="project-card">
+    <img src="{{ '/assets/images/Mythologizer.jpg' | relative_url }}"
+         alt="Fractal Apoptosis">
+    <h3>Mythologizer</h3>
+  </a>
 </section>
