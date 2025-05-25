@@ -4,13 +4,14 @@ title: "Fractal Fade"
 permalink: /Fractal_Fade/
 description: "Fractal Fade is an ambient music project exploring modular synthesis, generative composition, and textural disintegration."
 ---
-<div class="hero-image" > <img src="/assets/images/fractal_fade_banner.jpeg" alt="Fractal_Fade"> </div> 
+
 
 
 **Fractal Fade** is a faceless ambient music project by [Eman Safavi](https://emansafavi.com). It exists outside the traditional music momentum—favoring **generative systems**, **modular synthesis**, and **tape-style degradation** over structured composition.
 
 Minor Fall, the debut EP, is a slow drift. Built mostly with self-generating patches recorded in real time and post-processed for nuance. It’s meant for headphones, late nights, deep work, and long walks.
 
+<div class="hero-image" > <img src="/assets/images/fractal_fade_banner.jpeg" alt="Fractal_Fade" style="image-align: center"> </div> 
 ---
 
 ## Latest Release: *Minor Fall*
@@ -26,10 +27,11 @@ Minor Fall, the debut EP, is a slow drift. Built mostly with self-generating pat
 
 >
 
-<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0O4sSQGfDky11HTKNO9fbq?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0O4sSQGfDky11HTKNO9fbq?utm_source=generator" width="700px" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+## Also Availabe on Bandcamp and other streaming platforms
 
-<iframe style="border: 0; width: 700px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3327413038/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://fractalfade.bandcamp.com/album/minor-fall">Minor Fall by Fractal Fade</a></iframe>
+<iframe style="border: 0 border-radius:12px; width: 700px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3327413038/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://fractalfade.bandcamp.com/album/minor-fall">Minor Fall by Fractal Fade</a></iframe>
 
 ---
 
