@@ -416,3 +416,59 @@ footer {
   .nav-links { display: none; }
   .about-container { flex-direction: row; }
 }
+/* grid */
+.blog-grid{
+  list-style:none;
+  display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
+  gap:2rem;
+  padding:0;
+  margin:2rem 0;
+}
+
+/* card */
+.blog-card{
+  border:1px solid #e5e5e5;
+  border-radius:1rem;
+  padding:1.5rem;
+  display:flex;
+  flex-direction:column;
+  height:100%;
+  transition:box-shadow .2s;
+}
+.blog-card:hover{box-shadow:0 6px 24px rgba(0,0,0,.12);}
+
+.blog-title{margin:0 0 .25rem;font-size:1.25rem;line-height:1.3;}
+.blog-title a{text-decoration:none;color:inherit;}
+.blog-title a:hover{text-decoration:underline;}
+
+.blog-date{font-size:.8rem;opacity:.75;}
+
+.blog-excerpt{flex:1 1 auto;margin:.75rem 0 1rem;font-size:.95rem;line-height:1.4;}
+
+.blog-tag{
+  display:inline-block;
+  margin:0 .25rem .25rem 0;
+  padding:.2rem .55rem;
+  font-size:.75rem;
+  background:#f0f0f0;
+  border-radius:.5rem;
+}
+/* ---- thumbnails ---- */
+.thumb-wrapper{
+  position:relative;
+  overflow:hidden;
+  border-radius:0.75rem;
+  aspect-ratio:1/1;          /* perfect square */
+  margin:-1.5rem -1.5rem 1rem; /* edge-to-edge top, keeps existing padding */
+}
+.blog-thumb{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  transition:transform .35s ease;
+}
+
+/* ---- hover animation ---- */
+.blog-card:hover .blog-thumb{transform:scale(1.07);}
+.blog-card:hover{box-shadow:0 10px 28px rgba(0,0,0,.16);}

@@ -5,17 +5,37 @@ permalink: /Blogs/
 ---
 
 <section id="blog" class="container">
-  <h2>Recent Posts</h2>
-<div class="grid-gallery">
-  {% for post in site.posts %}
-    <article class="blog-post card">
-      <h2 class="blog-title">
-        <a href="{{ post.url | relative_url }}" target="_blank">{{ post.title }}</a>
-      </h2>
-      <p class="blog-excerpt">{{ post.excerpt }}</p>
-      <span class="blog-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-      <span class="blog-tag">{{ post.categories | join: ', ' }}</span>
-    </article>
-  {% endfor %}
-  </div>
+  <h1 class="page-title">Latest Posts</h1>
+
+  <ul class="blog-grid">
+    {% for post in site.posts %}
+      <li class="blog-card">
+  {%- assign thumb = post.thumbnail | default: post.image -%}
+  {%- if thumb %}
+    <figure class="thumb-wrapper">
+      <img class="blog-thumb" src="{{ thumb | relative_url }}" alt="{{ post.title }}">
+    </figure>
+  {%- endif %}
+
+  <header>
+    <h2 class="blog-title">
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    </h2>
+    <time class="blog-date" datetime="{{ post.date | date_to_xmlschema }}">
+      {{ post.date | date: "%d&nbsp;%b&nbsp;%Y" }}
+    </time>
+  </header>
+
+  <p class="blog-excerpt">
+    {{ post.excerpt | strip_html | truncate: 140 }}
+  </p>
+
+  <footer>
+    {% for category in post.categories %}
+      <span class="blog-tag">{{ category }}</span>
+    {% endfor %}
+  </footer>
+</li>
+    {% endfor %}
+  </ul>
 </section>
