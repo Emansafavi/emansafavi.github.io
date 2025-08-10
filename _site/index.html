@@ -19,7 +19,24 @@
         <a href="default.html">Home</a>
         <a href="/Projects/">Projects</a>
         <a href="/Blogs/">Blog</a>
-        <a href="/About/">About</a>
+        <!-- <a href="/About/">About</a> -->
+        <button class="nav-theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="sun-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <span class="theme-text">Day</span>
+        </button>
       </div>
     </div>
   </nav>
@@ -27,29 +44,71 @@
   <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu">
     <a href="default.html">Home</a>
-    <a href="/Projects/">projects</a>
-        <a href="/Blogs/">Blog</a>
-        <a href="/About/">About</a>
-      </div>
+    <a href="/Projects/">Projects</a>
+    <a href="/Blogs/">Blog</a>
+    <!-- <a href="/About/">About</a> -->
+    <button class="mobile-theme-toggle" id="mobileThemeToggle" aria-label="Toggle theme">
+      <svg class="sun-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+      <svg class="moon-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+      <span class="theme-text">Day</span>
+    </button>
   </div>
 </body>
 
   <!-- Main Content -->
   <main>
   <!-- Hero Section -->
-  <section class="hero container" style="display: flex; align-items: left; gap: 1rem;">
-    <div class="hero-text">
-      <h1>Artistic Technics,<br/>Computation & Sound Design</h1>
-      <p>
-        I’m an interdisciplinary artist and engineer based in Berlin. 
-        I combine my love for music, technology, and design to craft immersive experiences. 
-        Drawing from my background in chemical engineering, I treat creative processes 
-        like intricate systems—shaping both the sonic and the visual world. My main interest at the moment is 
-        interdisciplinary problem solving and the intersection of art and technology.
-      </p>
+  <section class="hero container">
+    <div class="hero-grid">
+      <div class="hero-text">
+        <h1>Interdisciplinary<br/>Artist/Engineer</h1>
+        <p>
+          I’m an artist and  an engineer based in Berlin, exploring the space where music, technology, and design meet.
+          With a background in chemical engineering, I approach creativity as a system—connecting sonic and visual elements into coherent,
+          immersive experiences. My current focus lies in interdisciplinary problem-solving and bridging the worlds of art and technology. 
+          With sound in general as my main medium, I explore generative and interactive systems as well as music production and experimental performances.
+        </p>
+      </div>
+      <div class="hero-image">
+        <img src="/assets/images/3d.png" alt="Eman Safavi" class="hero-image-content">
+      </div>
     </div>
-    <div class="hero-image">
-      <img src="/assets/images/3d.png" alt="Eman Safavi" style="max-width: 100%; height: auto; border-radius: 8px;">
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="about-grid container">
+      <div class="about-image-grid">
+        <img 
+          src="/assets/images/eman-portrait.png"
+          alt="Eman Safavi"
+          class="about-image-small" />
+      </div>
+      <div class="about-content-grid">
+        <h2>About</h2>
+        <div class="about-text-grid">
+          <p>
+            I’m pursuing a master’s degree in Design and Computation at the Berlin University of the Arts (UdK) 
+            and the Technical University of Berlin (TU). My work spans music, sound design, and interactive 
+            installations, often blending acoustic instruments with electronic and generative systems.
+Holding a bachelor’s in chemical engineering, I bring a structured yet experimental approach to my projects. 
+Alongside my practice as a musician, guitar teacher, and sound engineer, I’m driven by the challenge of creating works 
+that connect across disciplines and invite audiences to experience sound and space in new ways.
+          </p>
+        </div>
+      </div>
     </div>
   </section>
    

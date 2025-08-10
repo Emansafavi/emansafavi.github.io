@@ -6,22 +6,52 @@ permalink: /Projects/
 
 # Projects
 
----
  <section id="projects" class="container projects-grid">
-  <a href="{{ '/Fractal_Fade/' | relative_url }}" class="project-card">
+  <a href="{{ '/projects/Fractal_Fade/' | relative_url }}" class="project-card">
     <img src="{{ '/assets/images/Fractal_Fade_avatar.jpeg' | relative_url }}"
          alt="Fractal Fade">
     <h3>Fractal Fade</h3>
   </a>
 
-  <a href="{{ '/Personal_Sound_Space/' | relative_url }}" class="project-card">
+  <a href="{{ '/projects/Personal_Sound_Space/' | relative_url }}" class="project-card">
     <img src="{{ '/assets/images/Personal_Sound_Space.jpg' | relative_url }}"
          alt="Personal Sound Space">
     <h3>Personal (Sound) Space</h3>
   </a>
-  <a href="{{ '/Mythologizer/' | relative_url }}" class="project-card">
+  
+  <a href="{{ '/projects/Mythologizer/' | relative_url }}" class="project-card">
     <img src="{{ '/assets/images/Mythologizer.jpg' | relative_url }}"
-         alt="Fractal Apoptosis">
+         alt="Mythologizer">
     <h3>Mythologizer</h3>
+  </a>
+  
+  <a href="{{ '/projects/Hybrid_Rituals/' | relative_url }}" class="project-card">
+    <img src="{{ '/assets/images/hybrid-ritual-thumb.jpeg' | relative_url }}"
+         alt="Hybrid Rituals">
+    <h3>Hybrid Rituals</h3>
+  </a>
+  
+  <a href="{{ '/projects/Moor_by_Maris_Halna/' | relative_url }}" class="project-card">
+    <img src="{{ '/assets/images/Moor by Maris Halna.jpg' | relative_url }}"
+         alt="Moor by Maris Halna">
+    <h3>Moor by Maris Halna</h3>
+  </a>
+  
+  <a href="{{ '/projects/body-as-interface/' | relative_url }}" class="project-card">
+    <img src="{{ '/assets/images/body-interface-thumb.jpg' | relative_url }}"
+         alt="Body as Interface">
+    <h3>Body as Interface</h3>
+  </a>
+  
+  <a href="{{ '/projects/loops-series/' | relative_url }}" class="project-card">
+    <img src="{{ '/assets/images/loops-series-thumb.jpg' | relative_url }}"
+         alt="LOOPS Series">
+    <h3>LOOPS Series</h3>
+  </a>
+  
+  <a href="{{ '/projects/sound-thesis/' | relative_url }}" class="project-card">
+    <img src="{{ '/assets/images/sound-thesis-thumb.jpg' | relative_url }}"
+         alt="Sound/Thesis">
+    <h3>Sound/Thesis</h3>
   </a>
 </section>

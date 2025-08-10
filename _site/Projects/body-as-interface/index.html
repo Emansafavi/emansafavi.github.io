@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Body as Interface | Eman Safavi</title>
+  <!-- Make sure you've placed your optimized CSS in /assets/css/index.css -->
+  <link rel="stylesheet" href="/assets/css/index.css"/>
+</head>
+<body>
+    <!-- Navigation -->
+  <nav class="nav">
+    <div class="container nav-content">
+      <span class="logo-container">Eman Safavi</span>
+      <button class="menu-button" id="menuButton">
+        <i data-feather="menu"></i>
+      </button>
+      <div class="nav-links">
+        <a href="default.html">Home</a>
+        <a href="/Projects/">Projects</a>
+        <a href="/Blogs/">Blog</a>
+        <!-- <a href="/About/">About</a> -->
+        <button class="nav-theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="sun-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+          <span class="theme-text">Day</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="default.html">Home</a>
+    <a href="/Projects/">Projects</a>
+    <a href="/Blogs/">Blog</a>
+    <!-- <a href="/About/">About</a> -->
+    <button class="mobile-theme-toggle" id="mobileThemeToggle" aria-label="Toggle theme">
+      <svg class="sun-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="5"></circle>
+        <line x1="12" y1="1" x2="12" y2="3"></line>
+        <line x1="12" y1="21" x2="12" y2="23"></line>
+        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+        <line x1="1" y1="12" x2="3" y2="12"></line>
+        <line x1="21" y1="12" x2="23" y2="12"></line>
+        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+      </svg>
+      <svg class="moon-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+      </svg>
+      <span class="theme-text">Day</span>
+    </button>
+  </div>
+</body>
+
+  <!-- Main Content -->
+  <main>
+    <article class="blog-post container">
+      <h2></h2>
+      <div>
+        <h2 id="body-as-interface">Body as Interface</h2>
+
+<p>An interactive art installation developed for <strong>InKüLe/Room to Expand</strong>, exploring the body as a musical interface through motion tracking and generative audio synthesis. This project combines cutting-edge technology with artistic expression to create accessible interactive experiences for artists from dance and fine arts departments.</p>
+
+<p><strong>Body as Interface</strong> transforms human movement into musical expression, allowing participants to become both performers and composers through their physical gestures. The system creates a bridge between traditional artistic disciplines and emerging technologies, democratizing access to interactive art creation.</p>
+
+<hr />
+
+<h2 id="project-overview">Project Overview</h2>
+
+<p>The project began with the development of an “Airdrum” concept—an interactive drumming interface controlled via Microsoft Kinect motion tracking. The system was built using <strong>TouchDesigner</strong> and <strong>VCV Rack</strong>, combining real-time motion tracking with generative audio synthesis to create responsive, immersive experiences.</p>
+
+<p>The goal was to present an accessible example for artists from dance and fine arts departments, demonstrating how technology can enhance rather than replace traditional artistic expression. The system enables users to create music through movement, making the body itself the interface for artistic creation.</p>
+
+<hr />
+
+<h2 id="technical-implementation">Technical Implementation</h2>
+
+<p>The core of the system lies in the <strong>interconnection between TouchDesigner and VCV Rack</strong> for generative sound synthesis over OSC (Open Sound Control) on two computers in real-time. This architecture allows for:</p>
+
+<ul>
+  <li><strong>Real-time motion tracking</strong> via Microsoft Kinect</li>
+  <li><strong>Generative audio synthesis</strong> through VCV Rack’s modular environment</li>
+  <li><strong>Visual feedback</strong> and projection mapping via TouchDesigner</li>
+  <li><strong>Low-latency communication</strong> between systems using OSC protocol</li>
+</ul>
+
+<p>The technical setup enables participants to see their movements translated into both visual and auditory responses, creating a complete sensory experience that blurs the line between performer and audience.</p>
+
+<hr />
+
+<h2 id="exhibition--impact">Exhibition &amp; Impact</h2>
+
+<p>The second iteration of <strong>Body as Interface</strong> was exhibited during <strong>LNDW 2025</strong> at the NewPractice studio, demonstrating the project’s evolution from concept to public presentation. The exhibition showcased:</p>
+
+<ul>
+  <li><strong>Live demonstrations</strong> with audience participation</li>
+  <li><strong>Workshop sessions</strong> introducing the technology to new users</li>
+  <li><strong>Interactive performances</strong> highlighting the system’s artistic potential</li>
+  <li><strong>Documentation</strong> of the creative process and technical development</li>
+</ul>
+
+<p>The project successfully bridged the gap between technical innovation and artistic accessibility, providing artists with new tools for creative expression while maintaining the human element at the center of the experience.</p>
+
+<hr />
+
+<h2 id="technical-details">Technical Details</h2>
+
+<p><strong>Technologies Used:</strong></p>
+<ul>
+  <li>Microsoft Kinect (motion tracking)</li>
+  <li>TouchDesigner (visual programming)</li>
+  <li>VCV Rack (modular synthesis)</li>
+  <li>OSC (Open Sound Control) protocol</li>
+  <li>Real-time audio processing</li>
+</ul>
+
+<p><strong>Duration:</strong> 2024-2025
+<strong>Team:</strong> InKüLe/Room to Expand
+<strong>Role:</strong> Technical Development &amp; Artistic Direction</p>
+
+<hr />
+
+<h2 id="outcomes--impact">Outcomes &amp; Impact</h2>
+
+<p><strong>Body as Interface</strong> successfully demonstrated the potential for technology to enhance rather than replace human artistic expression. The project:</p>
+
+<ul>
+  <li><strong>Democratized access</strong> to interactive art technology</li>
+  <li><strong>Bridged disciplines</strong> between dance, fine arts, and technology</li>
+  <li><strong>Created new possibilities</strong> for audience engagement</li>
+  <li><strong>Established a framework</strong> for future interactive installations</li>
+</ul>
+
+<p>The system’s success in making complex technology accessible to artists from diverse backgrounds highlights the importance of user-centered design in artistic technology development.</p>
+
+<hr />
+
+<h2 id="reflection">Reflection</h2>
+
+<p>This project reinforced the importance of creating technology that serves artistic expression rather than dominating it. The challenge of making complex systems accessible while maintaining their creative potential led to innovative solutions in user interface design and system architecture.</p>
+
+<p><strong>Future iterations</strong> could explore:</p>
+<ul>
+  <li>Integration with multiple performers simultaneously</li>
+  <li>Expanded gesture recognition capabilities</li>
+  <li>Connection to other artistic disciplines</li>
+  <li>Remote collaboration possibilities</li>
+</ul>
+
+<p>The project continues to influence my approach to interactive art, emphasizing the human element in technological innovation.</p>
+
+      </div>
+    </article>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <span class="footer-location">Berlin, DE – All Rights Reserved – 2025</span>
+      <div class="social-links">
+        <!-- Replace # with actual links to your profiles -->
+        <a href="https://soundcloud.com/emansafavi" target="_blank" rel="noopener"><i data-feather="music"></i></a>
+        <a href="https://youtube.com/@emansafavi" target="_blank" rel="noopener"><i data-feather="youtube"></i></a>
+        <a href="https://instagram.com/emansafavi" target="_blank" rel="noopener"><i data-feather="instagram"></i></a>
+        <a href="mailto:emansafavibayat@icloud.com"><i data-feather="mail"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS & Feather Icons -->
+  <script src="/assets/js/index.js"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+  <script>feather.replace()</script>
+</body>
+</html>
