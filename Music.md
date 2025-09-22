@@ -21,6 +21,11 @@ permalink: /Music/
     <img src="{{ '/assets/images/0bsqra/0bsqra_typography.jpeg' | relative_url }}" alt="0bsqra">
     <h3>0bsqra</h3>
   </a>
+
+  <a href="{{ '/Music/Eman_Safavi/' | relative_url }}" class="project-card">
+    <img src="{{ '/assets/images/Personal_Sound_Space.jpg' | relative_url }}" alt="Eman Safavi">
+    <h3>Eman Safavi</h3>
+  </a>
 </section>
 
 <section class="container">
