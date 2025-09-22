@@ -5,12 +5,6 @@ permalink: /Music/
 ---
 
 # Music
-
-<section class="container">
-  <h2>Eman Safavi's music</h2>
-  <p class="project-desc">Original works, performances, and sound pieces exploring systems, texture, and space.</p>
-</section>
-
 <section class="container projects-grid music-cards">
   <a href="{{ '/projects/Fractal_Fade/' | relative_url }}" class="project-card">
     <img src="{{ '/assets/images/fractal_fade_banner.jpeg' | relative_url }}" alt="Fractal Fade">
@@ -23,7 +17,7 @@ permalink: /Music/
   </a>
 
   <a href="{{ '/Music/Eman_Safavi/' | relative_url }}" class="project-card">
-    <img src="{{ '/assets/images/Personal_Sound_Space.jpg' | relative_url }}" alt="Eman Safavi">
+    <img src="{{ '/assets/images/TAG1.png' | relative_url }}" alt="Eman Safavi">
     <h3>Eman Safavi</h3>
   </a>
 </section>
@@ -33,11 +27,12 @@ permalink: /Music/
   <p class="project-desc">Collaborations and production work.</p>
 </section>
 
-<section class="container projects-grid music-cards">
-  <a href="{{ '/projects/Moor_by_Maris_Halna/' | relative_url }}" class="project-card">
-    <img src="{{ '/assets/images/Moor by Maris Halna.jpg' | relative_url }}" alt="Moor by Maris Halna">
-    <h3>Moor by Maris Halna</h3>
-  </a>
+<section class="container">
+  <ul class="project-links">
+    <li>
+      <a href="{{ '/projects/Moor_by_Maris_Halna/' | relative_url }}">Moor by Maris Halna</a>
+    </li>
+  </ul>
 </section>
 
 
