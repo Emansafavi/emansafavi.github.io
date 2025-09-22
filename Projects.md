@@ -7,11 +7,6 @@ permalink: /Projects/
 # Projects
 
  <section id="projects" class="container projects-grid">
-  <a href="{{ '/projects/Fractal_Fade/' | relative_url }}" class="project-card">
-    <img src="{{ '/assets/images/Fractal_Fade_avatar.jpeg' | relative_url }}"
-         alt="Fractal Fade">
-    <h3>Fractal Fade</h3>
-  </a>
 
   <a href="{{ '/projects/Personal_Sound_Space/' | relative_url }}" class="project-card">
     <img src="{{ '/assets/images/Personal_Sound_Space.jpg' | relative_url }}"
@@ -31,11 +26,6 @@ permalink: /Projects/
     <h3>Hybrid Rituals</h3>
   </a>
   
-  <a href="{{ '/projects/Moor_by_Maris_Halna/' | relative_url }}" class="project-card">
-    <img src="{{ '/assets/images/Moor by Maris Halna.jpg' | relative_url }}"
-         alt="Moor by Maris Halna">
-    <h3>Moor by Maris Halna</h3>
-  </a>
   
   <a href="{{ '/projects/body-as-interface/' | relative_url }}" class="project-card">
     <img src="{{ '/assets/images/body-interface-thumb.jpg' | relative_url }}"

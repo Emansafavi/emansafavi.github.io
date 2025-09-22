@@ -46,12 +46,16 @@
   box-sizing: border-box;
 }
 
+html {
+  font-size: 17px;
+}
+
 body {
   font-family: var(--font-sans);
   background-color: var(--color-bg);
   color: var(--color-text);
   line-height: 1.6;
-  font-size: 14px;
+  font-size: 15px;
   font-weight: var(--font-weight-normal);
   transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -411,6 +415,15 @@ h2 {
   height: 180px;
   object-fit: cover;
   transition: transform 0.3s ease;
+}
+
+/* Compact uniform music cards */
+.music-cards .project-card img {
+  height: 140px;
+}
+
+.music-cards .project-card h3 {
+  font-size: 0.875rem;
 }
 
 .project-card:hover img {

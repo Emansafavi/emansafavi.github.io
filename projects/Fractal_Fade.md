@@ -29,9 +29,13 @@ Minor Fall, the debut EP, is a slow drift. Built mostly with self-generating pat
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/0O4sSQGfDky11HTKNO9fbq?utm_source=generator" width="700px" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
-## Also Availabe on Bandcamp and other streaming platforms
+## Also available on Bandcamp
 
-<iframe style="border: 0 border-radius:12px; width: 700px; height: 274px;" src="https://bandcamp.com/EmbeddedPlayer/album=3327413038/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://fractalfade.bandcamp.com/album/minor-fall">Minor Fall by Fractal Fade</a></iframe>
+<iframe style="border: 0; width: 100%; max-width: 700px; height: 274px; border-radius:12px;" src="https://bandcamp.com/EmbeddedPlayer/album=3327413038/size=large/bgcol=333333/linkcol=e32c14/artwork=small/transparent=true/" seamless><a href="https://fractalfade.bandcamp.com/album/minor-fall">Minor Fall by Fractal Fade</a></iframe>
+
+<p class="project-desc" style="margin-top:0.75rem;">
+  Prefer Bandcamp? <a href="https://fractalfade.bandcamp.com/album/minor-fall" target="_blank" rel="noopener">Buy on Bandcamp</a>.
+</p>
 
 ---
 

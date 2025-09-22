@@ -67,6 +67,49 @@ document.addEventListener('DOMContentLoaded', function() {
       }
     });
   });
+  
+  // Simple Lightbox for gallery
+  const galleryLinks = document.querySelectorAll('[data-lightbox="image"]');
+  const lightbox = document.createElement('div');
+  lightbox.id = 'lightbox';
+  lightbox.style.cssText = 'position:fixed;inset:0;background:rgba(0,0,0,0.9);display:none;align-items:center;justify-content:center;z-index:1000;padding:1rem;';
+  const img = document.createElement('img');
+  img.style.cssText = 'max-width:90%;max-height:90%;border-radius:8px;';
+  lightbox.appendChild(img);
+  const close = document.createElement('button');
+  close.textContent = '×';
+  close.setAttribute('aria-label', 'Close');
+  close.style.cssText = 'position:absolute;top:1rem;right:1rem;background:none;border:none;color:#fff;font-size:2rem;cursor:pointer;';
+  lightbox.appendChild(close);
+  document.body.appendChild(lightbox);
+
+  function openLightbox(src) {
+    img.src = src;
+    lightbox.style.display = 'flex';
+  }
+
+  function closeLightbox() {
+    lightbox.style.display = 'none';
+    img.src = '';
+  }
+
+  galleryLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      const href = link.getAttribute('href');
+      const isExternal = href && (href.startsWith('http://') || href.startsWith('https://'));
+      const lightboxSrc = link.dataset.src || link.querySelector('img')?.src;
+      if (!isExternal && lightboxSrc) {
+        e.preventDefault();
+        openLightbox(lightboxSrc);
+      }
+    });
+  });
+
+  lightbox.addEventListener('click', function(e) {
+    if (e.target === lightbox || e.target === close) {
+      closeLightbox();
+    }
+  });
 });
 
 document.addEventListener('DOMContentLoaded', function() {
