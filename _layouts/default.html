@@ -29,32 +29,12 @@
       </div>
     </div>
   </section>
-
-  <!-- About Section -->
-  <section id="about" class="about-section">
-    <div class="about-grid container">
-      <div class="about-image-grid">
-        <img 
-          src="{{ '/assets/images/eman-portrait.png' | relative_url }}"
-          alt="Eman Safavi"
-          class="about-image-small" />
-      </div>
-      <div class="about-content-grid">
-        <h2>About</h2>
-        <div class="about-text-grid">
-          <p>
-            I’m pursuing a master’s degree in Design and Computation at the Berlin University of the Arts (UdK) 
-            and the Technical University of Berlin (TU). My work spans music, sound design, and interactive 
-            installations, often blending acoustic instruments with electronic and generative systems.
-Holding a bachelor’s in chemical engineering, I bring a structured yet experimental approach to my projects. 
-Alongside my practice as a musician, guitar teacher, and sound engineer, I’m driven by the challenge of creating works 
-that connect across disciplines and invite audiences to experience sound and space in new ways.
-          </p>
-        </div>
-      </div>
-    </div>
+  
+  <!-- Page Content -->
+  <section class="container">
+    {{ content }}
   </section>
-   
+  
   <!-- Footer -->
   {% include footer.html %}
 

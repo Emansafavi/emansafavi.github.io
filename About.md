@@ -1,10 +1,10 @@
 ---
 layout: empty
-title: About
-permalink: /About/
+title: About Me
+permalink: /about-me/
 ---
 <section
-      id="about" class="container">
+      id="about-me" class="container">
         <div class="about-container">
           <img 
             src="{{ '/assets/images/eman-portrait.png' | relative_url }}"
@@ -24,6 +24,10 @@ permalink: /About/
               Always eager to push the boundaries of conventional music and sound design, 
               Eman aspires to create immersive experiences that resonate with audiences on multiple levels.
             </p>
+            <div style="margin-top:1rem;display:flex;gap:0.75rem;flex-wrap:wrap;">
+              <a class="btn" href="{{ '/cv/' | relative_url }}">View CV</a>
+              <a class="btn btn-secondary" href="mailto:contact@emansafavi.com">Contact: contact@emansafavi.com</a>
+            </div>
           </div>
         </div>
       </section>

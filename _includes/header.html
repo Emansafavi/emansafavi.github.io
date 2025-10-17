@@ -6,11 +6,11 @@
         <i data-feather="menu"></i>
       </button>
       <div class="nav-links">
-        <a href="default.html">Home</a>
+        <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/Projects/' | relative_url }}">Projects</a>
     <a href="{{ '/Music/' | relative_url }}">Music</a>
         <a href="{{ '/Blogs/' | relative_url }}">Blog</a>
-        <!-- <a href="{{ '/About/' | relative_url }}">About</a> -->
+        <a href="{{ '/about-me/' | relative_url }}">About Me/CV</a>
         <button class="nav-theme-toggle" id="themeToggle" aria-label="Toggle theme">
           <svg class="sun-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <circle cx="12" cy="12" r="5"></circle>
@@ -34,11 +34,11 @@
 
   <!-- Mobile Menu -->
   <div class="mobile-menu" id="mobileMenu">
-    <a href="default.html">Home</a>
+    <a href="{{ '/' | relative_url }}">Home</a>
     <a href="{{ '/Projects/' | relative_url }}">Projects</a>
     <a href="{{ '/Music/' | relative_url }}">Music</a>
     <a href="{{ '/Blogs/' | relative_url }}">Blog</a>
-    <!-- <a href="{{ '/About/' | relative_url }}">About</a> -->
+    <a href="{{ '/about-me/' | relative_url }}">About Me/CV</a>
     <button class="mobile-theme-toggle" id="mobileThemeToggle" aria-label="Toggle theme">
       <svg class="sun-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
         <circle cx="12" cy="12" r="5"></circle>
@@ -57,4 +57,3 @@
       <span class="theme-text">Day</span>
     </button>
   </div>
-</body>

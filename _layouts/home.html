@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>{{ site.title }}</title>
+  <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}"/>
+</head>
+<body>
+  {% include header.html %}
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero container">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1>Interdisciplinary<br/>Artist/Engineer</h1>
+          <p>
+            I’m an artist and  an engineer based in Berlin, exploring the space where music, technology, and design meet.
+            With a background in chemical engineering, I approach creativity as a system—connecting sonic and visual elements into coherent,
+            immersive experiences. My current focus lies in interdisciplinary problem-solving and bridging the worlds of art and technology. 
+            With sound in general as my main medium, I explore generative and interactive systems as well as music production and experimental performances.
+          </p>
+        </div>
+        <div class="hero-image">
+          <img src="{{ '/assets/images/3d.png' | relative_url }}" alt="Eman Safavi" class="hero-image-content">
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Posts (styled to your theme) -->
+    <section class="container">
+      <h2>Latest Posts</h2>
+      <ul class="blog-grid">
+        {% for post in site.posts limit:6 %}
+          <li class="blog-card">
+            {% assign thumb = post.thumbnail | default: post.image %}
+            {% if thumb %}
+            <figure class="thumb-wrapper">
+              <img class="blog-thumb" src="{{ thumb | relative_url }}" alt="{{ post.title }}">
+            </figure>
+            {% endif %}
+
+            <header>
+              <h3 class="blog-title">
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h3>
+              <time class="blog-date" datetime="{{ post.date | date_to_xmlschema }}">
+                {{ post.date | date: "%d %b %Y" }}
+              </time>
+            </header>
+
+            <p class="blog-excerpt">
+              {{ post.excerpt | strip_html | truncate: 140 }}
+            </p>
+
+            <footer>
+              {% for category in post.categories %}
+                <span class="blog-tag">{{ category }}</span>
+              {% endfor %}
+            </footer>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  </main>
+
+  {% include footer.html %}
+
+  <script src="{{ '/assets/js/index.js' | relative_url }}"></script>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
+  <script>feather.replace()</script>
+</body>
+</html>
+
+
