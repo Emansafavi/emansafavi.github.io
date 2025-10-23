@@ -32,7 +32,7 @@
     <!-- Latest Posts (styled to your theme) -->
     <section class="container">
       <h2>Latest Posts</h2>
-      <ul class="blog-grid">
+      <ul class="blog-grid " >
         {% for post in site.posts limit:6 %}
           <li class="blog-card">
             {% assign thumb = post.thumbnail | default: post.image %}

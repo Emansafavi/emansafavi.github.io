@@ -85,7 +85,6 @@ permalink: /cv/
 
   <div style="margin-top:1.5rem;display:flex;gap:0.75rem;flex-wrap:wrap;">
     <a class="btn" href="mailto:contact@emansafavi.com">Contact me</a>
-    <a class="btn btn-secondary" href="/assets/Safavi%20Bayat_Final%20Paper.pdf" target="_blank" rel="noopener">View a sample PDF</a>
   </div>
 </section>
 
