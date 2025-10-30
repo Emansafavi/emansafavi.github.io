@@ -1,138 +1,100 @@
 ---
 layout: empty
-title: "Sound/Thesis"
+title: "Sound/Thesis: Modular Sound Synthesis Workshop mit VCV Rack"
 thumbnail: "/assets/images/sound-thesis-thumb.jpg"
 permalink: /projects/sound-thesis/
-description: "A research project exploring the relationship between sound and academic discourse."
+description: "A modular sound synthesis workshop by Eman Safavi Bayat, as presented with InKüLe and TU Berlin. Full details, images, audio, livestream."
 ---
 
-## Sound/Thesis
-
-A comprehensive **modular sound synthesis workshop** developed as part of my role in the InKüLe project, designed to bring technologies and perspectives to artists while providing them with practical tools for their artistic practice. The workshop represents a bridge between traditional artistic disciplines and modern electronic music creation.
-
-**Sound/Thesis** introduces participants to the world of modular sound synthesis using VCV Rack, a free and powerful virtual modular synthesizer, guiding them from basic concepts to creating complex sound textures and musical structures.
-
----
-
-## Workshop Development
-
-As part of my role in the InKüLe project, one duty is to think of ways to bring technologies and perspectives to artists and provide them with materials and tools they can use in their artistic practice. For this purpose, I developed the concept of a workshop which was held on **May 26th, 2025** at the NewPractice studio.
-
-The workshop was designed to be accessible to both beginners and intermediate users, providing a hands-on introduction to modular synthesis while maintaining the artistic focus that defines the InKüLe project.
+<div class="blog-post card" style="margin-top:2rem;">
+  <h1 style="color:#ef4444; font-size:1.3rem;">Modular Sound Synthesis Workshop mit VCV Rack (InKüLe x Eman Safavi Bayat)</h1>
+  <a class="btn" href="https://www.inkuele.de/toolkits/details/modular-sound-synthesis-workshop-mit-vcv-rack" target="_blank" style="margin-top:1rem;font-size: 1rem;">Full Workshop Details on InKüLe →</a>
+  <p style="margin-top:0.75rem;color:#dc2626; font-weight:bold;font-size:0.9rem">New Practice Studio, TU Berlin • 26 May 2025 • Hybrid event (in-person & livestream)</p>
+</div>
 
 ---
 
-## Workshop Content
+## Workshop Overview
+This practical **modular sound synthesis workshop** was designed and led by <b>Eman Safavi Bayat</b> for the InKüLe project at TU Berlin. It introduced fundamental and advanced concepts in modular synthesis using <b>VCV Rack</b>—an open-source, software-based modular synthesizer.
 
-The **Sound/Thesis - Modular Sound Synthesis Workshop Using VCV Rack** covered essential aspects of modular synthesis:
-
-**Core Concepts:**
-- **Modular patching** fundamentals and signal flow
-- **Sound synthesis** principles and techniques
-- **VCV Rack** interface and module functionality
-- **Recording and integration** with digital audio workstations
-
-**Hands-On Learning:**
-- **Basic setup** and signal routing
-- **Creating sound textures** and musical structures
-- **Subtractive synthesis** techniques
-- **Integration with DAWs** (Ableton Live, Reaper, Bitwig)
-
-**Advanced Topics:**
-- **Complex patching** techniques
-- **Generative music** creation
-- **Sound design** for artistic applications
-- **Performance and recording** strategies
+*Date:* <b>Monday, 26 May 2025</b>  <br>
+*Location:* <b>New Practice Studio, Straße des 17. Juni, Hauptgebäude der TU Berlin</b>  <br>
+*Duration:* 5 hours  <br>
+*Host:* <b>Eman Safavi Bayat</b> <br>
+*Team/Assistance:* Anastasia Putsykina, Fang Tsai, Marcello Lussana  <br>
+*Open to:* All faculties, no prior programming required <br>
 
 ---
 
-## Technical Implementation
-
-The workshop utilized **VCV Rack**, a free virtual modular synthesizer that provides access to professional-grade synthesis tools without the cost of physical hardware. The system enables:
-
-**Modular Synthesis:**
-- Virtual Eurorack-style modules
-- Real-time sound generation and processing
-- Complex signal routing and modulation
-- Professional-quality audio output
-
-**Integration Capabilities:**
-- Connection to digital audio workstations
-- Real-time recording and playback
-- MIDI control and automation
-- Audio file export and processing
-
-**Future Evolution:**
-The workshop can evolve to include **interconnectivity of different apps via OSC over a VPN** - even remotely from each other - for any sort of sonification within the modular synthesis medium.
+## What Participants Learned
+- **Hands-on exploration of digital modular synthesis**
+- **Guided introduction to VCV Rack** (interface, patching, live sound design)
+- Fundamental concepts such as:
+  - Oscillators (OSC)
+  - Voltage Controlled Amplifiers (VCA)
+  - Filters
+  - Envelopes
+  - Low-Frequency Oscillators (LFO)
+  - Sequencers
+- Working with creative effects (Reverb, Delay)
+- Use of MIDI, quantizers, third-party plugins
+- How to collaboratively create and present unique soundscapes—starting from identical modules but personalizing the musical result
 
 ---
 
-## Workshop Outcomes
-
-Participants gained comprehensive knowledge and practical skills in modular synthesis:
-
-**Technical Skills:**
-- **Basic knowledge** of how VCV Rack works
-- **Entry-level understanding** of sound synthesis (subtractive synthesis)
-- **Ability to record** experiments for further use
-- **Template creation** for starting their own sound crafting
-
-**Artistic Applications:**
-- **Soundscape creation** techniques
-- **Audio snippet** development
-- **Integration workflows** with existing artistic practices
-- **Expanded sound design** and music production capabilities
-
-**Professional Development:**
-- **Documentation** of the workshop stream for later viewing
-- **Accessibility** through professional streaming
-- **Community building** among participants
-- **Knowledge sharing** across artistic disciplines
+## The Workshop Flow
+1. <b>Introduction & Setup:</b> Room and live/online setup, brief on modular sound synthesis, project aims.
+2. <b>Modular Synthesis Basics:</b> Overview of modular systems & VCV Rack. Step-by-step patching walkthrough (core modules introduced and demoed in order).
+3. <b>Hands-On Patching:</b> Participants craft their own patches, experiment with signal routing, modulation, filters, and sound texture.
+4. <b>Effects & Extra Modules:</b> Exploration of reverb, delay, MIDI tools, quantizers, mixing modules.
+5. <b>Creative Showcase:</b> Each participant presents their work.
+6. <b>Q&A and Group Reflection.</b>
 
 ---
 
-## Technical Details
+## Hybrid/Online Documentation
+The workshop was streamed live (via YouTube and stream.udk-berlin.de) with three-point camera and screen: <br>
+- Live instructor camera<br>
+- Slides / presentation<br>
+- VCV Rack screen demonstration  <br>
+A **full recording is available** for asynchronous viewing, allowing thorough accessibility for future learners and participants unable to attend in-person. <br>
+*See <a href="https://www.inkuele.de/toolkits/details/modular-sound-synthesis-workshop-mit-vcv-rack" target="_blank">official online documentation and stream</a>.*
 
-**Technologies Used:**
-- VCV Rack (virtual modular synthesizer)
-- Digital Audio Workstations (Ableton Live, Reaper, Bitwig)
-- Professional streaming equipment
-- Audio recording and processing tools
-
-**Duration:** May 26th, 2025
-**Location:** NewPractice Studio
-**Participants:** Artists from various disciplines
-**Format:** Hands-on workshop with live streaming
-
----
-
-## Impact & Accessibility
-
-The workshop was **professionally streamed**, broadening accessibility and providing documentation for later viewing. This approach ensures that the knowledge shared during the workshop reaches beyond the immediate participants, creating a lasting resource for the artistic community.
-
-**Key Achievements:**
-- **Hands-on learning** experience for participants
-- **Professional documentation** through streaming
-- **Accessible technology** introduction
-- **Cross-disciplinary** knowledge sharing
-- **Practical skill development** for artistic practice
+### Livestream Video
+<div style="margin:2rem 0;text-align:center">
+<iframe title="Sound/thesis - Modular Sound Synthesis Workshop with VCV Rack" width="560" height="315" src="https://stream.udk-berlin.de/videos/embed/7bbe60ee-2e57-49d7-86e7-158b23cec25e" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+</div>
 
 ---
 
-## Reflection
+## Workshop Media Highlights
 
-The Sound/Thesis workshop demonstrated the importance of making complex technologies accessible to artists from diverse backgrounds. The challenge of teaching modular synthesis while maintaining artistic focus led to innovative approaches in workshop design and delivery.
+### Images from the Workshop
+<div style="display:flex; gap:1.5rem; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin:2rem 0;">
+  <img src="/assets/images/soundthesis-1.jpg" alt="Modular Sound Synthesis Workshop photo 1" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
+  <img src="/assets/images/soundthesis-2.jpg" alt="Modular Sound Synthesis Workshop photo 2" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
+  <img src="/assets/images/soundthesis-3.jpg" alt="Modular Sound Synthesis Workshop photo 3" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
+</div>
 
-**Key Learnings:**
-- **Technology serves art** when properly introduced
-- **Hands-on experience** is crucial for understanding
-- **Documentation** extends workshop impact
-- **Cross-disciplinary** approaches enrich learning
+### Audio / Sound Examples
+<!--
+  Please add audio demos as needed—recommended upload location: `/assets/audio/inkuele-vcv-demo.mp3`
+  <audio controls><source src="/assets/audio/inkuele-vcv-demo.mp3" type="audio/mpeg">Your browser does not support this audio element.</audio>
+-->
+<p style="color:#9ca3af;">Workshop audio sample(s) coming soon.</p>
 
-**Future Development:**
-- **Remote workshop** capabilities via VPN
-- **Advanced synthesis** techniques
-- **Collaborative sound** creation
-- **Integration with** other artistic technologies
+---
 
-The workshop continues to influence approaches to technology education in artistic contexts, emphasizing the importance of practical, accessible learning experiences that serve artistic practice.
+## Tools & Resources
+- <b>VCV Rack</b> (free, open-source modular synthesizer)
+- **Plateau collection &ndash; Valley** (reverb)
+- **Chronoblob** (delay)
+- **Mind Meld collection** (mixer)
+- **Inklen Cable Colour Key** (cable management)
+
+---
+
+## Credits & Source
+<small>Material adapted and summarized from the official documentation:<br>
+<a href="https://www.inkuele.de/toolkits/details/modular-sound-synthesis-workshop-mit-vcv-rack" target="_blank">www.inkuele.de/toolkits/details/modular-sound-synthesis-workshop-mit-vcv-rack</a>.<br>
+Workshop designed and taught by Eman Safavi Bayat, with support from InKüLe and TU Berlin.<br></small>
