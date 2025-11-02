@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-02T17:04:02+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Eman Safavi</title><subtitle>Artistic Technics, Computation &amp; Sound Design</subtitle><entry><title type="html">UN03 — Soundscape for Performance on Presence and Neglect</title><link href="http://localhost:4000/sound/performance/collaboration/2025/08/22/Performance-on-Presence-and-Neglect.html" rel="alternate" type="text/html" title="UN03 — Soundscape for Performance on Presence and Neglect" /><published>2025-08-22T00:00:00+02:00</published><updated>2025-08-22T00:00:00+02:00</updated><id>http://localhost:4000/sound/performance/collaboration/2025/08/22/Performance-on-Presence-and-Neglect</id><content type="html" xml:base="http://localhost:4000/sound/performance/collaboration/2025/08/22/Performance-on-Presence-and-Neglect.html"><![CDATA[<p>In <strong>August 2025</strong>, I collaborated with <strong>Awa Jalali</strong>, a dancer and performer, on a project titled <strong>UN03</strong>, presented at <strong>dbstudio in Berlin</strong>.<br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-11-02T21:25:50+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Eman Safavi</title><subtitle>Artistic Technics, Computation &amp; Sound Design</subtitle><entry><title type="html">UN03 — Soundscape for Performance on Presence and Neglect</title><link href="http://localhost:4000/sound/performance/collaboration/2025/08/22/Performance-on-Presence-and-Neglect.html" rel="alternate" type="text/html" title="UN03 — Soundscape for Performance on Presence and Neglect" /><published>2025-08-22T00:00:00+02:00</published><updated>2025-08-22T00:00:00+02:00</updated><id>http://localhost:4000/sound/performance/collaboration/2025/08/22/Performance-on-Presence-and-Neglect</id><content type="html" xml:base="http://localhost:4000/sound/performance/collaboration/2025/08/22/Performance-on-Presence-and-Neglect.html"><![CDATA[<p>In <strong>August 2025</strong>, I collaborated with <strong>Awa Jalali</strong>, a dancer and performer, on a project titled <strong>UN03</strong>, presented at <strong>dbstudio in Berlin</strong>.<br />
 Awa approached me to create the <strong>soundscape</strong> for her performance — a work reflecting on the feeling of <em>being unseen or neglected while being fully present</em>.</p>
 
 <p>The performance was part of her broader <strong>artistic research</strong>, touching on recent events and their emotional residue, while exploring how visibility, silence, and movement interact within shared space.</p>
@@ -778,4 +778,62 @@ In that sense, the performance was less about sound or movement and more about <
   <li>The <strong>guitar and vocal part</strong> you hear was mixed in during video editing, aiming to capture the raw creative momentum in the moment.</li>
 </ul>
 
-<p>It only took me a few hours to edit, and I hope the result communicates both the imperfections and the sincerity that drove me to share it. As I work through the flux of life, I’m learning that sometimes the most honest art emerges before we make it “perfect.” Enjoy exploring this patch—maybe it’ll spark a little journey of your own.</p>]]></content><author><name></name></author><category term="VCV Rack" /><category term="Music" /><category term="Reflections" /><summary type="html"><![CDATA[In December 2022, I found myself in a challenging space—life was intense, and the sounds I heard in my inner universe weren’t especially vivid or polished. Yet, as an artist, I decided to share what I was creating, even if it wasn’t “perfect.” After all, in a world full of polished YouTube performances, it’s easy to lose confidence. But I realized imperfection can be more honest and real, so here it is: my patch called Violet Bubbles.]]></summary></entry></feed>
+<p>It only took me a few hours to edit, and I hope the result communicates both the imperfections and the sincerity that drove me to share it. As I work through the flux of life, I’m learning that sometimes the most honest art emerges before we make it “perfect.” Enjoy exploring this patch—maybe it’ll spark a little journey of your own.</p>]]></content><author><name></name></author><category term="VCV Rack" /><category term="Music" /><category term="Reflections" /><summary type="html"><![CDATA[In December 2022, I found myself in a challenging space—life was intense, and the sounds I heard in my inner universe weren’t especially vivid or polished. Yet, as an artist, I decided to share what I was creating, even if it wasn’t “perfect.” After all, in a world full of polished YouTube performances, it’s easy to lose confidence. But I realized imperfection can be more honest and real, so here it is: my patch called Violet Bubbles.]]></summary></entry><entry><title type="html">Midnight Euphoria</title><link href="http://localhost:4000/music/performance/vcv-rack/2022/11/06/Midnight-Euphoria.html" rel="alternate" type="text/html" title="Midnight Euphoria" /><published>2022-11-06T00:00:00+01:00</published><updated>2022-11-06T00:00:00+01:00</updated><id>http://localhost:4000/music/performance/vcv-rack/2022/11/06/Midnight-Euphoria</id><content type="html" xml:base="http://localhost:4000/music/performance/vcv-rack/2022/11/06/Midnight-Euphoria.html"><![CDATA[<h2 id="the-performance">The Performance</h2>
+<p>Last night I stepped into my home studio with a clear intention: to build a patch in <strong>VCV Rack</strong> that could <em>accompany me</em>.<br />
+Not just passively, but actively; a system that would respond, evolve, and flow while I played live guitar, manipulated textures, and let the machine breathe underneath.</p>
+
+<p align="center">
+  <img src="/assets/images/midnight-euphoria-cover.jpg" alt="Midnight Euphoria Cover Art" style="width:60%; max-width:400px; border-radius:12px; margin-top:10px; margin-bottom:20px;" />
+</p>
+
+<p>The idea behind this little performance was to build a patch in VCV Rack that can accompany me with a <strong>drum machine</strong>, <strong>arpeggios</strong>, and <strong>pads</strong> without the need for me to control much live.<br />
+I mapped everything to my MIDI controller, and that’s how it is.</p>
+
+<p>In practice:</p>
+<ul>
+  <li>A drum machine driving the pulse and heartbeat</li>
+  <li>Arpeggiators weaving patterns, shifting rhythmically and tonally</li>
+  <li>Pads swelling, fading, and evolving as ambient backdrops</li>
+  <li>Guitar (and sometimes synth) lines layered on top</li>
+  <li>The MIDI controller as the conductor, triggering scenes and morphing parameters</li>
+</ul>
+
+<p><em>here is the <a href="https://patchstorage.com/midnight-ephoria/">patch</a> for free if you want to experiment with it</em></p>
+<h2 id="why-this-approach">Why This Approach</h2>
+<p>I’ve always been drawn to hybrid workflows: tech and art, precision and chaos, control <em>and</em> surrender.<br />
+Working with VCV Rack lets me set up a system with rules and then override them in real time, letting the unpredictable emerge.</p>
+
+<p>Mapping everything to a MIDI controller frees me from menu-hopping and plugin-clicking during performance.<br />
+Instead, I can <em>play</em> physically, musically, emotionally, while the patch responds beneath me.</p>
+
+<p>It’s almost like composing <em>a friend</em>: something that listens, shifts, and moves, and I bounce off it.</p>
+
+<h2 id="the-sound">The Sound</h2>
+
+<p>Here’s the raw take (unedited except for level balances) where the machine and I find our groove:</p>
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/soundcloud%253Atracks%253A1377545275&amp;color=%234e4c54&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
+<div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/emansafavi" title="Eman Safavi" target="_blank" style="color: #cccccc; text-decoration: none;">Eman Safavi</a> · <a href="https://soundcloud.com/emansafavi/midnight-euphoria" title="Midnight Euphoria" target="_blank" style="color: #cccccc; text-decoration: none;">Midnight Euphoria</a></div>
+
+<p>And here’s the video of the performance:</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v1pbOKAvnas?si=GitDERVOcEPbigXl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen=""></iframe>
+
+<h2 id="reflections">Reflections</h2>
+<p>In the quiet after the performance, I realised how forgiving a well-built system can be.</p>
+
+<p>There were moments where the arpeggio lagged, or the pad overswelled, and I improvised a line simply because the machine opened a gap.<br />
+These weren’t mistakes, they were conversations.</p>
+
+<p>Moving forward, I want to refine this setup:</p>
+<ul>
+  <li>More scenes mapped to the controller</li>
+  <li>Smoother transitions between moods</li>
+  <li>Layering field recordings into the patch</li>
+  <li>Possibly turning these into an ambient EP someday</li>
+</ul>
+
+<p>But for now, this was the experiment:<br />
+the machine and a moment of <strong>midnight euphoria</strong>.</p>
+
+<p>Eman</p>]]></content><author><name></name></author><category term="music" /><category term="performance" /><category term="vcv-rack" /><summary type="html"><![CDATA[A late-night VCV Rack performance where I built a self-accompanying modular patch with drum machine, arpeggios, and pads, all mapped to a MIDI controller.]]></summary></entry></feed>
