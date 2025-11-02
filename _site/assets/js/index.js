@@ -405,4 +405,128 @@ document.addEventListener('DOMContentLoaded', function() {
       });
     });
   }
+
+  // ==========================================
+  // SUBTLE BACKGROUND PARTICLE ANIMATION
+  // ==========================================
+  // Check for reduced motion preference
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  
+  if (window.innerWidth > 768 && !prefersReducedMotion) { // Only on desktop to save mobile resources
+    const particleCanvas = document.createElement('canvas');
+    particleCanvas.id = 'particle-canvas';
+    particleCanvas.style.cssText = `
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 0;
+      opacity: 0.15;
+      transition: opacity 0.3s ease;
+    `;
+    document.body.insertBefore(particleCanvas, document.body.firstChild);
+    
+    const ctx = particleCanvas.getContext('2d');
+    let particles = [];
+    let animationId;
+    
+    // Set canvas size
+    function resizeCanvas() {
+      particleCanvas.width = window.innerWidth;
+      particleCanvas.height = window.innerHeight;
+    }
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas, { passive: true });
+    
+    // Particle class
+    class Particle {
+      constructor() {
+        this.x = Math.random() * particleCanvas.width;
+        this.y = Math.random() * particleCanvas.height;
+        this.size = Math.random() * 2 + 1; // Slightly larger particles for visibility
+        this.speedX = (Math.random() - 0.5) * 0.3; // Very slow movement
+        this.speedY = (Math.random() - 0.5) * 0.3;
+        this.opacity = Math.random() * 0.5 + 0.5; // Increased opacity for visibility
+      }
+      
+      update() {
+        this.x += this.speedX;
+        this.y += this.speedY;
+        
+        // Wrap around edges
+        if (this.x < 0) this.x = particleCanvas.width;
+        if (this.x > particleCanvas.width) this.x = 0;
+        if (this.y < 0) this.y = particleCanvas.height;
+        if (this.y > particleCanvas.height) this.y = 0;
+      }
+      
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.fillStyle = `rgba(239, 68, 68, ${this.opacity})`;
+        ctx.fill();
+      }
+    }
+    
+    // Create particles (slightly more for better visibility)
+    const particleCount = Math.min(40, Math.floor((window.innerWidth * window.innerHeight) / 15000));
+    for (let i = 0; i < particleCount; i++) {
+      particles.push(new Particle());
+    }
+    
+    // Animation loop
+    function animate() {
+      ctx.clearRect(0, 0, particleCanvas.width, particleCanvas.height);
+      
+      particles.forEach(particle => {
+        particle.update();
+        particle.draw();
+      });
+      
+      // Draw subtle connections between nearby particles
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+          const dx = particles[i].x - particles[j].x;
+          const dy = particles[i].y - particles[j].y;
+          const distance = Math.sqrt(dx * dx + dy * dy);
+          
+          // Only draw lines for nearby particles
+          if (distance < 150) {
+            ctx.beginPath();
+            ctx.strokeStyle = `rgba(239, 68, 68, ${(1 - distance / 150) * 0.15})`; // Slightly more visible lines
+            ctx.lineWidth = 0.5;
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.stroke();
+          }
+        }
+      }
+      
+      animationId = requestAnimationFrame(animate);
+    }
+    
+    // Start animation
+    animate();
+    
+    // Pause animation when tab is not visible (save resources)
+    document.addEventListener('visibilitychange', function() {
+      if (document.hidden) {
+        cancelAnimationFrame(animationId);
+      } else {
+        animate();
+      }
+    });
+    
+    // Reduce opacity even more when user is scrolling (less distraction)
+    let scrollTimeout;
+    window.addEventListener('scroll', function() {
+      particleCanvas.style.opacity = '0.08';
+      clearTimeout(scrollTimeout);
+      scrollTimeout = setTimeout(() => {
+        particleCanvas.style.opacity = '0.15';
+      }, 500);
+    }, { passive: true });
+  }
 });
