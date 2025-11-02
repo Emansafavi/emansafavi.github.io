@@ -59,5 +59,5 @@ Moving forward, I want to refine this setup:
 
 But for now, this was the experiment:  
 the machine and a moment of **midnight euphoria**. 
-{% include share-buttons.html %}
+
 Eman
