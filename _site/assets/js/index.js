@@ -423,7 +423,7 @@ document.addEventListener('DOMContentLoaded', function() {
       height: 100%;
       pointer-events: none;
       z-index: 0;
-      opacity: 0.15;
+      opacity: 0.5;
       transition: opacity 0.3s ease;
     `;
     document.body.insertBefore(particleCanvas, document.body.firstChild);
@@ -448,7 +448,7 @@ document.addEventListener('DOMContentLoaded', function() {
         this.size = Math.random() * 2 + 1; // Slightly larger particles for visibility
         this.speedX = (Math.random() - 0.5) * 0.3; // Very slow movement
         this.speedY = (Math.random() - 0.5) * 0.3;
-        this.opacity = Math.random() * 0.5 + 0.5; // Increased opacity for visibility
+        this.opacity = Math.random() * 0.6 + 0.5; // Increased opacity for visibility
       }
       
       update() {
