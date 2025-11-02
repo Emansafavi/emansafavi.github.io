@@ -117,6 +117,8 @@ body {
   transition: color 0.2s;
   letter-spacing: 0.05em;
   font-weight: var(--font-weight-normal);
+  display: inline-block;
+  line-height: 1;
 }
 
 .nav-links a:hover {
@@ -136,8 +138,10 @@ body {
   font-size: 0.75rem;
   font-weight: var(--font-weight-normal);
   margin-left: 2rem;
-  padding: 0.5rem;
+  padding: 0;
   border-radius: 6px;
+  line-height: 1;
+  height: auto;
 }
 
 .nav-theme-toggle:hover {
@@ -890,7 +894,17 @@ footer {
 @media (min-width: 768px) {
   .nav-links { 
     display: flex; 
+    align-items: center;
     gap: 2rem; 
+  }
+  
+  .nav-links a {
+    margin-left: 0;
+  }
+  
+  .nav-theme-toggle {
+    margin-left: 0;
+    padding: 0.25rem 0.5rem;
   }
   
   .menu-button { 
@@ -1031,5 +1045,71 @@ footer {
   
   .about-text-grid p {
     font-size: 0.75rem;
+  }
+}
+
+/* ==========================================
+   ANIMATION ENHANCEMENTS
+   ========================================== */
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prevent animation flicker on page load */
+.hero-text,
+.hero-image,
+.project-card,
+.blog-card,
+section > h2 {
+  will-change: opacity, transform;
+}
+
+/* Enhanced transitions for interactive elements */
+a, button, .btn {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Logo animation */
+.logo-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-container::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: var(--color-highlight);
+  transition: width 0.3s ease;
+}
+
+.logo-container:hover::after {
+  width: 100%;
+}
+
+/* Stagger animation for grid items */
+.projects-grid .project-card,
+.blog-grid .blog-card {
+  animation-delay: calc(var(--index, 0) * 0.1s);
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
   }
 }

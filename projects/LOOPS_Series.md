@@ -3,20 +3,20 @@ layout: empty
 title: "LOOPS Series"
 thumbnail: "/assets/images/loops-series-thumb.jpg"
 permalink: /projects/loops-series/
-description: "A series of experimental music compositions exploring loop-based structures."
+description: "A series on-site panel talks and multiplatform streaming and live production."
 ---
 
 ## LOOPS Series
 
-A comprehensive **curation and production** project developed within NewPractice, pushing the boundaries of live streaming technology and event management. The LOOPS series represents a significant advancement in multi-platform content delivery, combining technical innovation with artistic curation to create accessible, high-quality live experiences.
+A comprehensive **curation and production** project developed within [NewPractice](https://www.newpractice.net), pushing the boundaries of live streaming technology and event management. The LOOPS series represents a significant advancement in multi-platform content delivery, combining technical innovation with artistic curation to create accessible, high-quality live experiences.
 
-**LOOPS Series** evolved from the StreamingKit developed at InKüLe, expanding its capabilities to handle complex multi-platform broadcasting, live sound management, and audience engagement across various digital platforms.
+**LOOPS Series** evolved from the StreamingKit developed at [InKüLe](https://inkuele.de), expanding its capabilities to handle complex multi-platform broadcasting, live sound management, and audience engagement across various digital platforms.
 
 ---
 
 ## Project Overview
 
-With the emergence of the need to produce and curate the LOOPS series within NewPractice, we pushed the StreamingKit from InKüLe even further to create a comprehensive production system capable of:
+With the emergence of the need to produce and curate the [LOOPS](https://www.newpractice.net/loops) series within NewPractice, we pushed the StreamingKit from InKüLe even further to create a comprehensive production system capable of:
 
 - **Simultaneously streaming to different platforms**
 - **Controlling live sound in front of house (FOH) format**

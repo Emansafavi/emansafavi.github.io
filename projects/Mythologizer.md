@@ -43,6 +43,7 @@ To reach the final stage, several iterative design phases were carried out:
 The analog game's myth evolution process is documented here:
 
 👉 [myths.celest.in](https://myths.celest.in)
+👉 [mythologizer.org](https://www.mythologizer.org)
 
 ---
 
