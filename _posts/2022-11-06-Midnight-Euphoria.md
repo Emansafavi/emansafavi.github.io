@@ -58,6 +58,6 @@ Moving forward, I want to refine this setup:
 - Possibly turning these into an ambient EP someday  
 
 But for now, this was the experiment:  
-the machine and a moment of **midnight euphoria**.
-
+the machine and a moment of **midnight euphoria**. 
+{% include share-buttons.html %}
 Eman
