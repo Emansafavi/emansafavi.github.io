@@ -6,16 +6,13 @@ categories: [music, performance, modular, vcv-rack]
 description: "A hybrid modular-guitar performance exploring celestial patterns through sound and light, blending VCV Rack, electric guitar, and audiovisual composition."
 ---
 
-# Celestial Evidence  
-*by Eman Safavi*
+## The Concept  
+Lately I’ve been feeling a desperate need for **my community** — a group that resonates with what I create and explore.  
+During my search, one word kept appearing: *niche*.  
 
 <p align="center">
   <img src="/assets/images/celestial-evidence-cover.jpg" alt="Celestial Evidence Cover Art" style="width:60%; max-width:400px; border-radius:12px; margin-top:10px; margin-bottom:20px;">
 </p>
-
-## The Concept  
-Lately I’ve been feeling a desperate need for **my community** — a group that resonates with what I create and explore.  
-During my search, one word kept appearing: *niche*.  
 
 I tried to observe my work from the outside and realised that the combination of **modular synthesis** and **real instruments** captures everything I love doing.  
 This hybrid world of sound brings together all my interests: electronic music, guitar performance, music theory, mixing, video editing, photography, lighting, and live performance.

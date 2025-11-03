@@ -33,7 +33,7 @@
     <section class="container">
       <h2>Latest Posts</h2>
       <ul class="blog-grid " >
-        {% for post in site.posts limit:6 %}
+        {% for post in site.posts limit:60 %}
           <li class="blog-card">
             {% assign thumb = post.thumbnail | default: post.image %}
             {% if thumb %}
