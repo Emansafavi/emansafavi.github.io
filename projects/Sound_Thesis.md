@@ -13,6 +13,11 @@ description: "A modular sound synthesis workshop by Eman Safavi Bayat, as presen
 </div>
 
 ---
+### Livestream Video
+<div style="margin:2rem 0;text-align:center">
+<iframe title="Sound/thesis - Modular Sound Synthesis Workshop with VCV Rack" width="560" height="315" src="https://stream.udk-berlin.de/videos/embed/7bbe60ee-2e57-49d7-86e7-158b23cec25e" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
+</div>
+
 
 ## Workshop Overview
 This practical **modular sound synthesis workshop** was designed and led by <b>Eman Safavi Bayat</b> for the InKüLe project at TU Berlin. It introduced fundamental and advanced concepts in modular synthesis using <b>VCV Rack</b>—an open-source, software-based modular synthesizer.
@@ -60,10 +65,6 @@ The workshop was streamed live (via YouTube and stream.udk-berlin.de) with three
 A **full recording is available** for asynchronous viewing, allowing thorough accessibility for future learners and participants unable to attend in-person. <br>
 *See <a href="https://www.inkuele.de/toolkits/details/modular-sound-synthesis-workshop-mit-vcv-rack" target="_blank">official online documentation and stream</a>.*
 
-### Livestream Video
-<div style="margin:2rem 0;text-align:center">
-<iframe title="Sound/thesis - Modular Sound Synthesis Workshop with VCV Rack" width="560" height="315" src="https://stream.udk-berlin.de/videos/embed/7bbe60ee-2e57-49d7-86e7-158b23cec25e" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
-</div>
 
 ---
 
