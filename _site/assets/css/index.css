@@ -833,14 +833,34 @@ footer {
   flex-direction: column;
   height: 100%;
   transition: all 0.3s ease;
-  background: var(--color-card-bg);
+  background-color: var(--color-card-bg);
   backdrop-filter: blur(10px);
+
+  /* dark red + black gradient + procedural noise */
+  background-image:
+    radial-gradient(circle at 30% 20%,
+      rgba(130, 0, 0, 0.16),
+      rgba(0, 0, 0, 0.78) 70%
+    ),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.12'/%3E%3C/svg%3E");
+  background-blend-mode: overlay;
+  background-size: cover;
 }
 
 .blog-card:hover {
   box-shadow: 0 8px 24px var(--color-shadow);
   transform: translateY(-2px);
   border-color: rgba(239, 68, 68, 0.2);
+  transition: all 0.3s ease;
+
+  /* more red and slightly stronger noise on hover */
+  background-image:
+    radial-gradient(circle at 60% 30%,
+      rgba(213, 0, 0, 0.22),
+      rgba(0, 0, 0, 0.543) 80%
+    ),
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120' viewBox='0 0 120 120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)' opacity='0.15'/%3E%3C/svg%3E");
+  background-blend-mode: overlay;
 }
 
 .blog-title {
@@ -910,6 +930,7 @@ footer {
 /* Hover animations */
 .blog-card:hover .blog-thumb {
   transform: scale(1.05);
+  transition: transform 0.3s ease;
 }
 
 /* RESPONSIVE STYLES */
