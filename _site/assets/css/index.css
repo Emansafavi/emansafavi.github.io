@@ -513,12 +513,7 @@ h2 {
   margin-bottom: 1.5rem;
 }
 
-.blog-post-container {
-  max-width: 800px;
-  margin: 0 auto;
-  text-align: left;
-  padding: 2rem 2rem;
-}
+
 
 .blog-post.card {
   background-color: var(--color-card-bg);
