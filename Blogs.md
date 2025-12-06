@@ -10,6 +10,7 @@ permalink: /Blogs/
   <ul class="blog-grid">
     {% for post in site.posts %}
       <li class="blog-card">
+        <a href="{{ post.url | relative_url }}" class="blog-card-link">
   {%- assign thumb = post.thumbnail | default: post.image -%}
   {%- if thumb %}
     <figure class="thumb-wrapper">
@@ -19,7 +20,7 @@ permalink: /Blogs/
 
   <header>
     <h2 class="blog-title">
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      {{ post.title }}
     </h2>
     <time class="blog-date" datetime="{{ post.date | date_to_xmlschema }}">
       {{ post.date | date: "%d&nbsp;%b&nbsp;%Y" }}
@@ -35,6 +36,7 @@ permalink: /Blogs/
       <span class="blog-tag">{{ category }}</span>
     {% endfor %}
   </footer>
+        </a>
 </li>
     {% endfor %}
   </ul>
