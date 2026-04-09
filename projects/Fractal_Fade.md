@@ -11,7 +11,7 @@ description: "Fractal Fade is an ambient music project exploring modular synthes
 
 Minor Fall, the debut EP, is a slow drift. Built mostly with self-generating patches recorded in real time and post-processed for nuance. It’s meant for headphones, late nights, deep work, and long walks.
 
-<div class="hero-image" > <img src="/assets/images/fractal_fade_banner.jpeg" alt="Fractal_Fade" style="image-align: center"> </div> 
+<div class="hero-image" > <img src="{{ '/assets/images/fractal_fade_banner.jpeg' | relative_url }}" alt="Fractal_Fade" style="image-align: center"> </div> 
 ---
 
 ## Latest Release: *Minor Fall*
@@ -67,4 +67,3 @@ For collaborations or licensing:
 ---
 
 *This project is independent and self-funded. If you wish to support future releases, [donations are open here](https://www.gofundme.com/f/support-fractal-fade-independent-ambient-music) or consider purchasing via Bandcamp.*
-

@@ -55,4 +55,4 @@ Our methodology combined literature analysis, expert consultation, qualitative e
 
 ---
 
-👉 **Read the paper:** [Download PDF]({{ site.url }}/assets/Mythologizer.pdf)
+👉 **Read the paper:** [Download PDF]({{ '/assets/Mythologizer.pdf' | relative_url }})

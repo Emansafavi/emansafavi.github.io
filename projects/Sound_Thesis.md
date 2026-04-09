@@ -72,15 +72,15 @@ A **full recording is available** for asynchronous viewing, allowing thorough ac
 
 ### Images from the Workshop
 <div style="display:flex; gap:1.5rem; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin:2rem 0;">
-  <img src="/assets/images/soundthesis-1.jpg" alt="Modular Sound Synthesis Workshop photo 1" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
-  <img src="/assets/images/soundthesis-2.jpg" alt="Modular Sound Synthesis Workshop photo 2" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
-  <img src="/assets/images/soundthesis-3.jpg" alt="Modular Sound Synthesis Workshop photo 3" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
+  <img src="{{ '/assets/images/Soundthesis-1.jpg' | relative_url }}" alt="Modular Sound Synthesis Workshop photo 1" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
+  <img src="{{ '/assets/images/soundthesis-2.jpg' | relative_url }}" alt="Modular Sound Synthesis Workshop photo 2" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
+  <img src="{{ '/assets/images/soundthesis-3.jpg' | relative_url }}" alt="Modular Sound Synthesis Workshop photo 3" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
 </div>
 
 ### Audio / Sound Examples
 <!--
   Please add audio demos as needed—recommended upload location: `/assets/audio/inkuele-vcv-demo.mp3`
-  <audio controls><source src="/assets/audio/inkuele-vcv-demo.mp3" type="audio/mpeg">Your browser does not support this audio element.</audio>
+  <audio controls><source src="{{ '/assets/audio/inkuele-vcv-demo.mp3' | relative_url }}" type="audio/mpeg">Your browser does not support this audio element.</audio>
 -->
 <p style="color:#9ca3af;">Workshop audio sample(s) coming soon.</p>
 

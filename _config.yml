@@ -23,7 +23,7 @@ title: Eman Safavi
 description: >- # this means to ignore newlines until "baseurl:"
   Artistic Technics, Computation & Sound Design
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://emansafavi.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://emansafavi.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: emansafavi
 github_username:  emansafavi
 

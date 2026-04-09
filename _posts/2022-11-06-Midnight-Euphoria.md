@@ -11,7 +11,7 @@ Last night I stepped into my home studio with a clear intention: to build a patc
 Not just passively, but actively; a system that would respond, evolve, and flow while I played live guitar, manipulated textures, and let the machine breathe underneath.
 
 <p align="center">
-  <img src="/assets/images/midnight-euphoria-cover.jpg" alt="Midnight Euphoria Cover Art" style="width:60%; max-width:400px; border-radius:12px; margin-top:10px; margin-bottom:20px;">
+  <img src="{{ '/assets/images/midnight-euphoria-cover.jpg' | relative_url }}" alt="Midnight Euphoria Cover Art" style="width:60%; max-width:400px; border-radius:12px; margin-top:10px; margin-bottom:20px;">
 </p>
 
 The idea behind this little performance was to build a patch in VCV Rack that can accompany me with a **drum machine**, **arpeggios**, and **pads** without the need for me to control much live.  
