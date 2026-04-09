@@ -1,7 +1,7 @@
 ---
 layout: empty
 title: "Mythologizer"
-permalink: /projects/Mythologizer/
+permalink: /projects/mythologizer/
 description: "A research project on myth mutation, storytelling, and agent-based simulation."
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: empty
 title: Eman Safavi
-permalink: /Music/Eman_Safavi/
+permalink: /music/eman-safavi/
 ---
 
 *Archive page*

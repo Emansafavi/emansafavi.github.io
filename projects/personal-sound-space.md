@@ -1,7 +1,7 @@
 ---
 layout: empty
 title: "Personal (Sound) Space"
-permalink: /projects/Personal_Sound_Space/
+permalink: /projects/personal-sound-space/
 description: "An installation on personal space, listening, and spatial perception."
 ---
 

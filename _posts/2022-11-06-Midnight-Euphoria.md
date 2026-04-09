@@ -4,7 +4,7 @@ title: "Midnight Euphoria"
 date: 2022-11-06
 categories: [music, performance, vcv-rack]
 description: "A home-studio performance built with VCV Rack, guitar, and live controller mapping."
-permalink: /Music/performance/vcv-rack/2022/11/06/Midnight-Euphoria.html
+permalink: /music/performance/vcv-rack/2022/11/06/midnight-euphoria.html
 ---
 
 ## Setup

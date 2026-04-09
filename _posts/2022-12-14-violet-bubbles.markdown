@@ -2,8 +2,8 @@
 layout: post
 title: "Violet Bubbles – A December 2022 Snapshot"
 date: 2022-12-13 12:00:00 +0100
-categories: [VCV Rack, Music, Reflections]
-permalink: /vcv rack/music/reflections/2022/12/13/Violet-Bubbles.html
+categories: [vcv-rack, music, reflections]
+permalink: /vcv-rack/music/reflections/2022/12/13/violet-bubbles.html
 ---
 Violet Bubbles is a VCV Rack patch and one-take performance from December 2022.
 

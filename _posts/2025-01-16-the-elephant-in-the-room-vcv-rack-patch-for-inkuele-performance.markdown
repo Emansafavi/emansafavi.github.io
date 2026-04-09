@@ -2,8 +2,8 @@
 layout: post
 title: "The Elephant in the Room – VCV Rack Patch for InKüle Performance"
 date: 2025-01-14 12:00:00 +0100
-categories: [Performance, VCV Rack, Projects]
-permalink: /performance/vcv rack/projects/2025/01/14/The-Elephant-in-the-Room-VCV-Rack-Patch-for-InKüle-Performance.html
+categories: [performance, vcv-rack, projects]
+permalink: /performance/vcv-rack/projects/2025/01/14/the-elephant-in-the-room-vcv-rack-patch-for-inkuele-performance.html
 ---
 The Elephant in the Room is a VCV Rack patch prepared for a 20-minute InKüLe performance shown as part of the UdK 50-year anniversary program on February 8, 2025.
 

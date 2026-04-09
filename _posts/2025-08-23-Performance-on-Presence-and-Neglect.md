@@ -4,7 +4,7 @@ title: "UN03 — Soundscape for Performance on Presence and Neglect"
 date: 2025-08-22
 categories: [sound, performance, collaboration]
 description: "Soundscape work for Awa Jalali’s performance UN03 at dbstudio in Berlin."
-permalink: /sound/performance/collaboration/2025/08/22/Performance-on-Presence-and-Neglect.html
+permalink: /sound/performance/collaboration/2025/08/22/performance-on-presence-and-neglect.html
 ---
 
 In August 2025 I worked with dancer and performer Awa Jalali on *UN03*, presented at dbstudio in Berlin.

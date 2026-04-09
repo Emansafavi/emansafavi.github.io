@@ -2,8 +2,8 @@
 layout: post
 title:  "Check out my patches"
 date:   2025-01-08 17:09:53 +0100
-categories: VCVrack
-permalink: /vcvrack/2025/01/08/See-my-Patches.html
+categories: [vcv-rack]
+permalink: /vcv-rack/2025/01/08/see-my-patches.html
 ---
 
 This page links to my Patchstorage profile, where I upload VCV Rack patches and small experiments.

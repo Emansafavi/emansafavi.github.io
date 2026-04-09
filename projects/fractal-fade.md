@@ -1,7 +1,7 @@
 ---
 layout: empty
 title: "Fractal Fade"
-permalink: /projects/Fractal_Fade/
+permalink: /projects/fractal-fade/
 description: "Fractal Fade is an ambient music project exploring modular synthesis, generative composition, and textural disintegration."
 ---
 

@@ -4,7 +4,7 @@ title: "Celestial Evidence"
 date: 2022-12-30
 categories: [music, performance, modular, vcv-rack]
 description: "A hybrid modular-guitar performance built with VCV Rack, electric guitar, and post-mixed audio."
-permalink: /Music/performance/modular/vcv-rack/2022/12/30/Celestial-Evidence.html
+permalink: /music/performance/modular/vcv-rack/2022/12/30/celestial-evidence.html
 ---
 
 ## Setup

@@ -1,7 +1,7 @@
 ---
 layout: empty
 title: 0bsqra
-permalink: /Music/0bsqra/
+permalink: /music/0bsqra/
 ---
 
 # 0bsqra
@@ -51,4 +51,3 @@ permalink: /Music/0bsqra/
     <a href="https://soundcloud.com/0bsqra" target="_blank" rel="noopener">SoundCloud</a>
   </p>
 </section>
-

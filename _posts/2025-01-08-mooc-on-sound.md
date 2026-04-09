@@ -2,9 +2,9 @@
 layout: post
 title: "MOOC on Sound"
 date: 2025-01-08
-categories: [Sound]
+categories: [sound]
 author: "Eman Safavi"
-permalink: /sound/2025/01/08/MOOC-on-Sound.html
+permalink: /sound/2025/01/08/mooc-on-sound.html
 ---
 
 This post is a reference page for the *Experiment with Sounds* MOOC.

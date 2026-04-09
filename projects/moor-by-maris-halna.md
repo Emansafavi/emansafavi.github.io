@@ -1,7 +1,7 @@
 ---
 layout: empty
 title: "Moor by Maris Halna"
-permalink: /projects/Moor_by_Maris_Halna/
+permalink: /projects/moor-by-maris-halna/
 description: "Production, recording, and mixing for Moor, a release by Maris Halna."
 ---
 

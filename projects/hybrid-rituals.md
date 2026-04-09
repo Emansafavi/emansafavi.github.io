@@ -1,7 +1,7 @@
 ---
 layout: empty
 title: "Hybrid Rituals"
-permalink: /projects/Hybrid_Rituals/
+permalink: /projects/hybrid-rituals/
 description: "A live performance combining motion tracking, projection, sound, and audience interaction."
 ---
 

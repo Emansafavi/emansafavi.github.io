@@ -1,7 +1,7 @@
 ---
 layout: empty
 title: About Me
-permalink: /about-me/
+permalink: /about/
 ---
 <section
       id="about-me" class="container">
@@ -12,17 +12,12 @@ permalink: /about-me/
             class="about-image" />
           <div class="about-text">
             <p>
-              Eman is currently pursuing a master’s degree in “Design and Computation” 
-              at the Berlin University of the Arts (UdK) and the Technical University (TU) in Berlin. 
-              As an interdisciplinary artist, he combines music, technology, and design to craft 
-              innovative soundscapes and interactive installations.
+              Eman Safavi Bayat is an interdisciplinary researcher, creative technologist, and artist based in Berlin.
+              His work moves across sound, interactive systems, creative coding, and research through design.
             </p>
             <p>
-              With a bachelor’s degree in chemical engineering, Eman brings a systematic 
-              and experimental perspective to his creative work. He is a musician, guitar teacher, 
-              and sound engineer specializing in electronic music, generative music, and sound installations.
-              Always eager to push the boundaries of conventional music and sound design, 
-              Eman aspires to create immersive experiences that resonate with audiences on multiple levels.
+              He is currently studying Design &amp; Computation at UdK Berlin and TU Berlin.
+              With a background in chemical engineering, he approaches artistic work through systems, prototyping, and experimentation.
             </p>
             <div style="margin-top:1rem;display:flex;gap:0.75rem;flex-wrap:wrap;">
               <a class="btn" href="{{ '/cv/' | relative_url }}">View CV</a>
