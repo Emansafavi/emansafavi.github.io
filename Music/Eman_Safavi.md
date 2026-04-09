@@ -4,7 +4,7 @@ title: Eman Safavi
 permalink: /Music/Eman_Safavi/
 ---
 
-*A Journey through Sound*
+*Archive page*
 
 <section class="container">
   <div style="display:grid; grid-template-columns: 1fr 2fr; gap: 2rem; align-items:start;">
@@ -12,8 +12,8 @@ permalink: /Music/Eman_Safavi/
       <img src="{{ '/assets/images/TAG1.png' | relative_url }}" alt="Eman Safavi" style="width:100%; height:auto; border-radius:12px; border: 2px solid var(--color-border);">
     </div>
     <div class="about-text-grid">
-      <h2 style="margin:0;">Long story short</h2>
-      <p>I grew up playing the guitar since a very young age and I made a little homestudio for myself in the basement where I spent nearly a decade, layering guitars, pedals, and software into rough mixes. These tracks live on my SoundCloud under Eman Safavi. Currently I'm not wishing to continue that journey any more but who knows - maybe one day.</p>
+      <h2 style="margin:0;">About</h2>
+      <p>This page collects older material released under my own name. Most of it comes from home recordings, guitar-based sketches, and early studio experiments.</p>
     </div>
   </div>
 </section>

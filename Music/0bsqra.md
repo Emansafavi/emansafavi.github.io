@@ -6,9 +6,8 @@ permalink: /Music/0bsqra/
 
 # 0bsqra
 <section class="container blog-post">
-  <p>0bsqra is a Berlin-based general electronic music project exploring from ambient music to hard techno.</p>
-  <p>Created with inspiration from textures, mood and gloom.</p>
-  <p>0bsqra means zero BS - quasi random algorithms (obsecura). Stay tuned.</p>
+  <p>0bsqra is a Berlin-based electronic music project moving between ambient, experimental club music, and harder rhythmic material.</p>
+  <p>This page collects a few releases and links.</p>
 </section>
 
 <section class="container blog-post">
@@ -52,5 +51,4 @@ permalink: /Music/0bsqra/
     <a href="https://soundcloud.com/0bsqra" target="_blank" rel="noopener">SoundCloud</a>
   </p>
 </section>
-
 

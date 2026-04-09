@@ -7,9 +7,9 @@ description: "Fractal Fade is an ambient music project exploring modular synthes
 
 
 
-**Fractal Fade** is a faceless ambient music project by [Eman Safavi](https://emansafavi.com). It exists outside the traditional music momentum—favoring **generative systems**, **modular synthesis**, and **tape-style degradation** over structured composition.
+Fractal Fade is an ambient music project built around modular synthesis, generative patches, and slow-moving textures.
 
-Minor Fall, the debut EP, is a slow drift. Built mostly with self-generating patches recorded in real time and post-processed for nuance. It’s meant for headphones, late nights, deep work, and long walks.
+*Minor Fall*, the first EP, was made mostly from self-running systems recorded in real time and edited afterwards.
 
 <div class="hero-image" > <img src="{{ '/assets/images/fractal_fade_banner.jpeg' | relative_url }}" alt="Fractal_Fade" style="image-align: center"> </div> 
 ---
@@ -39,9 +39,9 @@ Minor Fall, the debut EP, is a slow drift. Built mostly with self-generating pat
 
 ---
 
-## Vision
+## Notes
 
-Fractal Fade is about minimal identity and maximal texture. No face, no stories. Just sound that evolves on its own. Current areas of experimentation include:
+Current areas of experimentation include:
 
 - Self-generating modular systems
 - Tape saturation and decay
@@ -63,7 +63,3 @@ Fractal Fade is about minimal identity and maximal texture. No face, no stories.
 
 For collaborations or licensing:  
 **fractalfade@gmail.com**
-
----
-
-*This project is independent and self-funded. If you wish to support future releases, [donations are open here](https://www.gofundme.com/f/support-fractal-fade-independent-ambient-music) or consider purchasing via Bandcamp.*

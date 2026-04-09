@@ -73,97 +73,37 @@
     <article class="blog-post container">
       <h2></h2>
       <div>
-        <h2 id="body-as-interface">Body as Interface</h2>
+        <h1 id="body-as-interface">Body as Interface</h1>
 
-<p>An interactive art installation developed for <strong>InKüLe/Room to Expand</strong>, exploring the body as a musical interface through motion tracking and generative audio synthesis. This project combines cutting-edge technology with artistic expression to create accessible interactive experiences for artists from dance and fine arts departments.</p>
+<p>Body as Interface is an interactive installation developed in the context of InKüLe / Room to Expand. The project uses motion tracking, TouchDesigner, and VCV Rack to turn movement into sound.</p>
 
-<p><strong>Body as Interface</strong> transforms human movement into musical expression, allowing participants to become both performers and composers through their physical gestures. The system creates a bridge between traditional artistic disciplines and emerging technologies, democratizing access to interactive art creation.</p>
+<p>The starting point was an AirDrum setup: a simple gesture-based instrument that could be understood quickly by people coming from dance, fine arts, and performance backgrounds. From there, the system expanded into a broader installation where movement, sound, and projection were linked in real time.</p>
 
-<hr />
-
-<h2 id="project-overview">Project Overview</h2>
-
-<p>The project began with the development of an “Airdrum” concept—an interactive drumming interface controlled via Microsoft Kinect motion tracking. The system was built using <strong>TouchDesigner</strong> and <strong>VCV Rack</strong>, combining real-time motion tracking with generative audio synthesis to create responsive, immersive experiences.</p>
-
-<p>The goal was to present an accessible example for artists from dance and fine arts departments, demonstrating how technology can enhance rather than replace traditional artistic expression. The system enables users to create music through movement, making the body itself the interface for artistic creation.</p>
-
-<hr />
-
-<h2 id="technical-implementation">Technical Implementation</h2>
-
-<p>The core of the system lies in the <strong>interconnection between TouchDesigner and VCV Rack</strong> for generative sound synthesis over OSC (Open Sound Control) on two computers in real-time. This architecture allows for:</p>
+<h2 id="what-the-system-does">What the system does</h2>
 
 <ul>
-  <li><strong>Real-time motion tracking</strong> via Microsoft Kinect</li>
-  <li><strong>Generative audio synthesis</strong> through VCV Rack’s modular environment</li>
-  <li><strong>Visual feedback</strong> and projection mapping via TouchDesigner</li>
-  <li><strong>Low-latency communication</strong> between systems using OSC protocol</li>
+  <li>Tracks body movement with Microsoft Kinect</li>
+  <li>Sends motion data from TouchDesigner to VCV Rack via OSC</li>
+  <li>Generates sound in real time from gesture input</li>
+  <li>Provides visual feedback through projection</li>
 </ul>
 
-<p>The technical setup enables participants to see their movements translated into both visual and auditory responses, creating a complete sensory experience that blurs the line between performer and audience.</p>
+<h2 id="context">Context</h2>
 
-<hr />
+<p>The project was built as a practical example for workshops and public presentation. A later iteration was shown during LNDW 2025 at NewPractice.</p>
 
-<h2 id="exhibition--impact">Exhibition &amp; Impact</h2>
+<p>My role covered technical development, prototyping, and shaping the installation into a format that could work both as a demonstration and as a performative setup.</p>
 
-<p>The second iteration of <strong>Body as Interface</strong> was exhibited during <strong>LNDW 2025</strong> at the NewPractice studio, demonstrating the project’s evolution from concept to public presentation. The exhibition showcased:</p>
+<h2 id="tools">Tools</h2>
 
 <ul>
-  <li><strong>Live demonstrations</strong> with audience participation</li>
-  <li><strong>Workshop sessions</strong> introducing the technology to new users</li>
-  <li><strong>Interactive performances</strong> highlighting the system’s artistic potential</li>
-  <li><strong>Documentation</strong> of the creative process and technical development</li>
+  <li>Microsoft Kinect</li>
+  <li>TouchDesigner</li>
+  <li>VCV Rack</li>
+  <li>OSC</li>
 </ul>
 
-<p>The project successfully bridged the gap between technical innovation and artistic accessibility, providing artists with new tools for creative expression while maintaining the human element at the center of the experience.</p>
-
-<hr />
-
-<h2 id="technical-details">Technical Details</h2>
-
-<p><strong>Technologies Used:</strong></p>
-<ul>
-  <li>Microsoft Kinect (motion tracking)</li>
-  <li>TouchDesigner (visual programming)</li>
-  <li>VCV Rack (modular synthesis)</li>
-  <li>OSC (Open Sound Control) protocol</li>
-  <li>Real-time audio processing</li>
-</ul>
-
-<p><strong>Duration:</strong> 2024-2025
-<strong>Team:</strong> InKüLe/Room to Expand
-<strong>Role:</strong> Technical Development &amp; Artistic Direction</p>
-
-<hr />
-
-<h2 id="outcomes--impact">Outcomes &amp; Impact</h2>
-
-<p><strong>Body as Interface</strong> successfully demonstrated the potential for technology to enhance rather than replace human artistic expression. The project:</p>
-
-<ul>
-  <li><strong>Democratized access</strong> to interactive art technology</li>
-  <li><strong>Bridged disciplines</strong> between dance, fine arts, and technology</li>
-  <li><strong>Created new possibilities</strong> for audience engagement</li>
-  <li><strong>Established a framework</strong> for future interactive installations</li>
-</ul>
-
-<p>The system’s success in making complex technology accessible to artists from diverse backgrounds highlights the importance of user-centered design in artistic technology development.</p>
-
-<hr />
-
-<h2 id="reflection">Reflection</h2>
-
-<p>This project reinforced the importance of creating technology that serves artistic expression rather than dominating it. The challenge of making complex systems accessible while maintaining their creative potential led to innovative solutions in user interface design and system architecture.</p>
-
-<p><strong>Future iterations</strong> could explore:</p>
-<ul>
-  <li>Integration with multiple performers simultaneously</li>
-  <li>Expanded gesture recognition capabilities</li>
-  <li>Connection to other artistic disciplines</li>
-  <li>Remote collaboration possibilities</li>
-</ul>
-
-<p>The project continues to influence my approach to interactive art, emphasizing the human element in technological innovation.</p>
+<p>The goal was not to present technology for its own sake, but to build a system that could be used immediately and understood through interaction.</p>
 
       </div>
     </article>
