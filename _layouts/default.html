@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>{{ page.title }} | Eman Safavi</title>
-  <!-- Make sure you've placed your optimized CSS in /assets/css/index.css -->
   <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}"/>
 </head>
 <body>
@@ -18,14 +17,13 @@
       <div class="hero-text">
         <h1>Interdisciplinary<br/>Artist/Engineer</h1>
         <p>
-          I’m an artist and  an engineer based in Berlin, exploring the space where music, technology, and design meet.
-          With a background in chemical engineering, I approach creativity as a system—connecting sonic and visual elements into coherent,
-          immersive experiences. My current focus lies in interdisciplinary problem-solving and bridging the worlds of art and technology. 
-          With sound in general as my main medium, I explore generative and interactive systems as well as music production and experimental performances.
+          I’m an artist and engineer in Berlin working where music, technology, and design overlap.
+          My background in chemical engineering still shapes how I think about systems, process, and experimentation.
+          Sound is my main medium, often through generative systems, interactive tools, music production, and performance.
         </p>
       </div>
-      <div class="hero-image">
-        <img src="{{ '/assets/images/3d.png' | relative_url }}" alt="Eman Safavi" class="hero-image-content">
+      <div class="hero-image hero-signal" aria-label="Generative signal field">
+        <canvas class="signal-field-canvas" data-signal-field aria-hidden="true"></canvas>
       </div>
     </div>
   </section>

@@ -6,6 +6,14 @@ categories: [exhibition, technical-production, research]
 description: "Technical lead work for Reclaiming Data, a symposium and exhibition on AI, digital archives, and collective memory at Flutgraben e.V. in Berlin."
 permalink: /exhibition/technical-production/research/2026/06/21/reclaiming-data-technical-lead.html
 ---
+<figure class="article-figure article-figure-wide">
+  <a href="https://koerber-stiftung.de/en/projects/ecommemoration/reclaiming-data/" target="_blank" rel="external nofollow noopener">
+    <img src="https://koerber-stiftung.de//site/assets/files/53445/rd-kv-2560x1560.1280x0-hidpi.jpg" alt="Reclaiming Data poster">
+  </a>
+  <figcaption>
+    <a href="https://koerber-stiftung.de/en/projects/ecommemoration/reclaiming-data/" target="_blank" rel="external nofollow noopener">Official project page</a>
+  </figcaption>
+</figure>
 
 In June 2026 I worked as technical lead for *Reclaiming Data - Art and Memory in the Age of Digital Archives*, a symposium and exhibition at Flutgraben e.V. in Berlin.
 
@@ -43,6 +51,3 @@ Installing the exhibition required close attention to each work's needs while al
 ## Credits
 
 *Reclaiming Data* was a collaboration by DOCKdigital, New Practice / Design & Computation, and Körber-Stiftung's eCommemoration programme. It was supported by Technologiestiftung Berlin as part of kulturBdigital and by Burg Hülshoff - Center for Literature. The project was curated by Jonny-Bix Bongers.
-
-Official project page: [Reclaiming Data - Art and Memory in the Age of Digital Archives](https://koerber-stiftung.de/en/projects/ecommemoration/reclaiming-data/)
-

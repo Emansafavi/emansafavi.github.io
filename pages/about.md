@@ -3,8 +3,7 @@ layout: empty
 title: About Me
 permalink: /about/
 ---
-<section
-      id="about-me" class="container">
+<section id="about-me" class="container">
         <div class="about-container">
           <img 
             src="{{ '/assets/images/eman-portrait.png' | relative_url }}"
@@ -12,14 +11,14 @@ permalink: /about/
             class="about-image" />
           <div class="about-text">
             <p>
-              Eman Safavi Bayat is an interdisciplinary researcher, creative technologist, and artist based in Berlin.
-              His work moves across sound, interactive systems, creative coding, and research through design.
+              I work across sound, interactive systems, creative coding, and research through design.
+              I am based in Berlin and currently working as a research associat in M.A Design &amp; Computation at UdK Berlin and TU Berlin.
             </p>
             <p>
-              He is currently studying Design &amp; Computation at UdK Berlin and TU Berlin.
-              With a background in chemical engineering, he approaches artistic work through systems, prototyping, and experimentation.
+              My background in chemical engineering still shapes how I think about systems, prototyping, and experimentation.
+              Most of my current work sits somewhere between music, technical research, and tools for performance or installation.
             </p>
-            <div style="margin-top:1rem;display:flex;gap:0.75rem;flex-wrap:wrap;">
+            <div class="action-row">
               <a class="btn" href="{{ '/cv/' | relative_url }}">View CV</a>
               <a class="btn btn-secondary" href="mailto:contact@emansafavi.com">Contact: contact@emansafavi.com</a>
             </div>

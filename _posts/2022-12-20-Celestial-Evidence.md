@@ -11,9 +11,9 @@ permalink: /music/performance/modular/vcv-rack/2022/12/30/celestial-evidence.htm
 
 Celestial Evidence is a hybrid performance built with VCV Rack, electric guitar, and post-mixed audio.
 
-<p align="center">
-  <img src="{{ '/assets/images/celestial-evidence-cover.jpg' | relative_url }}" alt="Celestial Evidence Cover Art" style="width:60%; max-width:400px; border-radius:12px; margin-top:10px; margin-bottom:20px;">
-</p>
+<figure class="article-figure article-figure-small">
+  <img src="{{ '/assets/images/celestial-evidence-cover.jpg' | relative_url }}" alt="Celestial Evidence cover art">
+</figure>
 
 The patch is built around a C# minor loop and four main layers:
 
@@ -30,4 +30,4 @@ Because of CPU limits, the guitar was recorded separately as a DI track in Reape
 
 Patch download:
 
-👉 [Celestial Evidence on Patchstorage](https://patchstorage.com/celestial-evidence/)
+[Celestial Evidence on Patchstorage](https://patchstorage.com/celestial-evidence/)

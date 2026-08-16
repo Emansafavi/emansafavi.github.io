@@ -28,10 +28,11 @@ Patch link: [The Elephant in the Room on Patchstorage](https://patchstorage.com/
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/CYpGC6zKEW8?si=a8FTnutsvHoV1iOm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<a href="https://patchstorage.com/the-elephant-in-the-room" target="_blank">
+<figure class="article-figure article-figure-small">
+<a href="https://patchstorage.com/the-elephant-in-the-room" target="_blank" rel="noopener">
   <img src="{{ '/assets/images/The-elephant-in-the-room.jpg' | relative_url }}"
-    alt="Elephant in the room patch for vcv rack" style="width:50%" position="center"
-    class="project-image" />
+    alt="Elephant in the Room patch for VCV Rack">
 </a>
+</figure>
 
 This page is mainly documentation for the patch and demo video.

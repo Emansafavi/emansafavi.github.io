@@ -34,4 +34,4 @@ It is not meant as a full essay or course summary. I use it mainly as a compact 
 - Thomas Kusitzky
 - Christopher DeLaurenti
 
-If needed, I can later turn this into a more useful resources page with links, reading notes, and selected takeaways instead of a raw course record.
+This remains a compact course record rather than a finished essay.

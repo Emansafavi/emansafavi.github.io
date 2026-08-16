@@ -28,14 +28,14 @@ The session introduced modular synthesis through VCV Rack and was designed for p
 
 ## Media
 
-<div style="margin:2rem 0;text-align:center">
+<div class="media-frame">
 <iframe title="Sound/thesis - Modular Sound Synthesis Workshop with VCV Rack" width="560" height="315" src="https://stream.udk-berlin.de/videos/embed/7bbe60ee-2e57-49d7-86e7-158b23cec25e" frameborder="0" allowfullscreen sandbox="allow-same-origin allow-scripts allow-popups allow-forms"></iframe>
 </div>
 
-<div style="display:flex; gap:1.5rem; justify-content:center; align-items:flex-start; flex-wrap:wrap; margin:2rem 0;">
-  <img src="{{ '/assets/images/Soundthesis-1.jpg' | relative_url }}" alt="Modular Sound Synthesis Workshop photo 1" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
-  <img src="{{ '/assets/images/soundthesis-2.jpg' | relative_url }}" alt="Modular Sound Synthesis Workshop photo 2" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
-  <img src="{{ '/assets/images/soundthesis-3.jpg' | relative_url }}" alt="Modular Sound Synthesis Workshop photo 3" style="width:320px; max-width:95vw; border-radius:10px; box-shadow:0 4px 14px #0002; object-fit:cover;">
+<div class="media-grid">
+  <img src="{{ '/assets/images/Soundthesis-1.jpg' | relative_url }}" alt="Modular Sound Synthesis Workshop photo 1">
+  <img src="{{ '/assets/images/soundthesis-2.jpg' | relative_url }}" alt="Modular Sound Synthesis Workshop photo 2">
+  <img src="{{ '/assets/images/soundthesis-3.jpg' | relative_url }}" alt="Modular Sound Synthesis Workshop photo 3">
 </div>
 
 ## Link

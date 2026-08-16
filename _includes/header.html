@@ -1,14 +1,14 @@
   <!-- Navigation -->
   <nav class="nav">
     <div class="container nav-content">
-      <span class="logo-container">Eman Safavi</span>
-      <button class="menu-button" id="menuButton">
+      <span class="logo-container"><a href="{{ '/' | relative_url }}">Eman Safavi</a></span>
+      <button class="menu-button" id="menuButton" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
         <i data-feather="menu"></i>
       </button>
       <div class="nav-links">
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/projects/' | relative_url }}">Projects</a>
-    <a href="{{ '/music/' | relative_url }}">Music</a>
+        <a href="{{ '/music/' | relative_url }}">Music</a>
         <a href="{{ '/blog/' | relative_url }}">Blog</a>
         <a href="{{ '/about/' | relative_url }}">About</a>
         <button class="nav-theme-toggle" id="themeToggle" aria-label="Toggle theme">

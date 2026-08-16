@@ -10,7 +10,7 @@ permalink: /cv/
       <div class="cv-header-main">
         <p class="cv-kicker">Curriculum Vitae</p>
         <h1 class="cv-name">Eman Safavi Bayat</h1>
-        <p class="cv-role">Interdisciplinary Researcher &amp; Creative Technologist</p>
+        <p class="cv-role">Sound, systems, creative coding, research through design</p>
       </div>
       <div class="cv-contact">
         <p>Berlin, Germany</p>
@@ -22,8 +22,8 @@ permalink: /cv/
     <section class="cv-section">
       <h2>Summary</h2>
       <p class="cv-summary">
-        Interdisciplinary researcher, creative technologist, and artist working across sound, creative coding, interactive media, and research through design.
-        My practice connects audio, generative systems, prototyping, and experimental media in both artistic and academic contexts.
+        I work across sound, creative coding, interactive media, and research through design.
+        My practice connects audio, generative systems, prototyping, and experimental media in artistic and academic contexts.
       </p>
     </section>
 
@@ -42,8 +42,17 @@ permalink: /cv/
     </section>
 
     <section class="cv-section">
-      <h2>Academic Experience</h2>
+      <h2>Experience</h2>
       <div class="cv-list">
+        <div class="cv-item">
+          <h3>Research Associate </h3>
+          <p class="cv-meta">New Practice, TU/UdK Berlin * Current</p>
+          <ul>
+            <li>Coordinating the hybrid research lab for the EU-funded Horizon project "Immersive ECHO" on using immersive technologies for cultural heritage and creative practice</li>
+            <li>Developing interactive systems and research toolkits for interdisciplinary research</li>
+            <li>Contributing to research proposals, project documentation, and publications</li>
+          </ul>
+        </div>
         <div class="cv-item">
           <h3>Student Research Assistant</h3>
           <p class="cv-meta">New Practice, TU/UdK Berlin</p>
@@ -156,7 +165,7 @@ permalink: /cv/
           <p>Adobe Creative Suite, video production, Blender, Figma</p>
         </div>
         <div class="cv-skill-block">
-          <h3>Soft Skills</h3>
+          <h3>Working Methods</h3>
           <p>Research through design, interdisciplinary workshops, rapid prototyping</p>
         </div>
       </div>
