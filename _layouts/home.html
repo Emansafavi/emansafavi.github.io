@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{{ site.title }}</title>
-  <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}"/>
+  <link rel="stylesheet" href="{{ '/assets/css/index.css' | relative_url }}" />
 </head>
+
 <body>
   {% include header.html %}
 
@@ -18,21 +20,21 @@
           <h1>Interdisciplinary Artist/Engineer</h1>
           <p>
             I’m an artist and engineer in Berlin working where music, technology, and design overlap.
-            My background in chemical engineering shapes how I think about systems, process, and experimentation. In my  Master studies I focused
-            on fast prototyping, iterations, AI systems, interaction design, research tools and research through design. 
-            I'm currently working as a Research Associate at TU Berlin, 
+            My background in chemical engineering shapes how I think about systems, process, and experimentation. In my
+            Master studies I focused
+            on fast prototyping, iterations, AI systems, interaction design, research tools and research through design.
+            I'm currently working as a Research Associate at TU Berlin,
             where I'm further conducting research on immersive technologies and iterative design.
-            While having sound is my main medium simultaneously exploring generative systems, interactive tools, music production, and creative coding.
+            Having sound as my main medium, I simultaneously exploring generative systems, interactive tools, music
+            production, and creative coding.
           </p>
           <div class="hero-actions" aria-label="Primary links">
             <a class="btn" href="{{ '/projects/' | relative_url }}">Selected Work</a>
             <a class="btn btn-secondary" href="{{ '/music/' | relative_url }}">Music</a>
           </div>
-          <span
-              data-morph-text
-              data-delay="3200"
-              data-phrases="sound / creative code / research|listening / systems / notes|interaction / archives / tools"
-            >research / creative code / sound</span>
+          <span data-morph-text data-delay="3200"
+            data-phrases="sound / creative code / research|listening / systems / notes|interaction / archives / tools">research
+            / creative code / sound</span>
         </div>
         <div class="hero-image hero-signal" aria-label="Generative signal field">
           <canvas class="signal-field-canvas" data-signal-field aria-hidden="true"></canvas>
@@ -124,4 +126,5 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.29.0/feather.min.js"></script>
   <script>feather.replace()</script>
 </body>
+
 </html>
